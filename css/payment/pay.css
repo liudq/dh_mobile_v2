@@ -1,0 +1,137 @@
+.red{color:#f00;}
+.process-bar{margin:13px 15px 0 15px;background:#eeeeee;height: 21px;border-radius: 2px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display: flex;}
+.process-bar span{display:block;color:#666;font-size:10px;height:21px;line-height:21px;text-align:center;-webkit-box-flex: 1;-ms-flex: 1;-webkit-flex: 1;flex: 1;}
+.process-bar span:nth-child(2){color:#fff;border-radius:0 2px 2px 0;background:#fca01b url(//css.dhresource.com/mobile_v2/paymentsucc/image/processbarbg.png) no-repeat left 0;background-size:9px 21px}
+.total-price{padding:7px 5px 0 5px; border-bottom:solid 15px #f5f4ef;}
+.total-price ul{padding:5px 10px;color:#39362b;font-size:14px;}
+.total-price span{float:left; color:#68655e;}
+.total-price ul li{font-size:14px;line-height:20px;word-break:break-all;word-wrap:break-word}
+.total-price ul li b,.total-price ul li strong{color:#39362b;font-weight:bold}
+.payment-Warp{ padding:0 15px;}
+.paycon .pay-titile{line-height:35px;color:#333}
+.visa-tips{position:relative;z-index:1;margin:15px 0 0 0;overflow:hidden;color:#a6a398;padding:5px 25px 5px 44px;height:40px;line-height:20px;background:#f5f4ef url(//css.dhresource.com/mobile_v2/payment/image/zkbg2.png) no-repeat 15px 7px;background-size:19px 27px;border-radius: 3px;}
+.visa-active{height:auto;overflow:auto;white-space:normal}
+.visa-tips a{position:absolute;right:0;top:0;width:35px;height:35px;background:url(//css.dhresource.com/mobile_v2/payment/image/sj.png) no-repeat center center;background-size:13px 8px}
+.visa-tips b{ display:block;}
+.visa-tips p{ width:80%; height:20px; overflow:hidden;text-overflow: ellipsis; white-space: nowrap;}
+.visa-active a{background:url(//css.dhresource.com/mobile_v2/payment/image/sj2.png) no-repeat center center;background-size:12px 8px}
+.otherPaycard,.otherPaycard2{ padding:10px 15px; border-bottom:solid 15px #f5f4ef;  }
+.otherPaycard ul,.otherPaycard2 ul{ width:100%;  overflow:hidden;}
+.otherPaycard li,.otherPaycard2 li{  margin-bottom:6px;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;box-sizing:border-box; }
+.otherPaycard li{padding-right:5px;float:left; width:50%;}
+.otherPaycard2 li{ width:100%;}
+.otherPaycard li .paycerd-div,.otherPaycard2 li .paycerd-div{ position:relative; height:43px;border:solid 1px #cbc8bb; border-radius:3px;}
+.otherPaycard li span.card-icon,.otherPaycard2 li span.card-icon{ margin:11px auto 0; display:block; width:70px; height:20px; background:url(//css.dhresource.com/mobile_v2/payment/image/pay.png?v=20160527) no-repeat;background-size:185px auto;}
+.otherPaycard li.ideal .card-icon,.otherPaycard2 li.ideal .card-icon{ background-position:25px -79px;}
+.otherPaycard li.unionpay .card-icon,.otherPaycard2 li.unionpay .card-icon{ background-position:20px -154px;}
+.otherPaycard li.sofort .card-icon,.otherPaycard2 li.sofort .card-icon{ background-position:0 -195px;}
+.otherPaycard li.giropay .card-icon,.otherPaycard2 li.giropay .card-icon{ background-position:10px -233px;}
+.otherPaycard li span.card-arrow,.otherPaycard2 li span.card-arrow,.more-payment-top a span{ position:absolute; display:block; right:15px; top:15px; width:7px; height:11px; background: url(//css.dhresource.com/mobile_v2/payment/image/sj3.png) no-repeat; background-size:7px 11px;}
+.otherPaycard li:nth-child(2) ,.otherPaycard li:nth-child(4),.otherPaycard li:nth-child(6){ padding-right:0;}
+.cart-num .cart-numtit{ position:relative; padding:5px 0;}
+.visamdae{ position:absolute; left:52px; top:10px;}
+.visamdae span{ margin-right:4px; display:inline-block; width:33px; height:20px; background:url(//css.dhresource.com/mobile_v2/payment/image/pay.png?v=20160527) no-repeat;background-size:185px auto;}
+.visamdae span:nth-child(2){ background-position:0 -24px;}
+.visamdae span:nth-child(3){ background-position:0 -48px;}
+.cart-num .cart-numtit,.exp-date .exp-dateit,.sec-code .sec-codetit,.dhpay-pass .dhpay-passtit,.paycard-tit{line-height:33px;color:#333;font-size:14px}
+.cart-numtxt input,.sec-codecon input,.dhpay-pass input,.contact-name input,.bill-txt input,.telephone input{width:100%;text-indent:8px;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;font-size:14px;height:43px;line-height:43px;border:1px solid #cbc8bb;border-radius:3px;}
+.sec-codecon input{ float:left; width:20%; margin-right:5px;height:43px; line-height:43px; border:solid 1px #cbc8bb;  }
+.sec-codecon input.inred{ border:solid 1px #f00;}
+.cart-numtit{ font-size:16px; color:#39362b;}
+.exp-datetxt{width:100%;display:-moz-box;display:-webkit-box;display:box}
+.exp-day{-moz-box-flex:4;-webkit-box-flex:4;box-flex:4}
+.exp-smyb{display:inline-block;width:24px;text-align:center;line-height:38px}
+.exp-year{-moz-box-flex:4;-webkit-box-flex:4;box-flex:4}
+.exp-day select,.exp-year select,.cart-numtxt select{display:inline-block;font-size:14px;height:43px;line-height:43px;-webkit-appearance:none;border-radius:3px;width:100%;background:url(//css.dhresource.com/mobile_v2/payment/image/sj.png) no-repeat 90% center;background-size:12px 8px;border:1px solid #cbc8bb;border-radius:3px;}
+.cart-numtxt{ overflow:hidden;}
+.cart-numtxt select,.bill-txt select, .bill-txt1 select{ float:left; margin-right:3%;display:inline-block;color:#39362b;font-size:14px; width:75%;height:43px;line-height:43px;-webkit-appearance:none;border-radius:3px;background:url(//css.dhresource.com/mobile_v2/payment/image/sj.png) no-repeat 97% center;background-size:12px 8px;border:1px solid #cbc8bb;border-radius:3px;}
+.bill-txt1 select{margin:0;width:100%;}
+.visa-data{ float:left; display:inline-block; width:20%; border:solid 1px #ebeae4; border-radius:3px; height:41px; line-height:41px; text-align:center; color:#a6a398;}
+.cart-numtxt .dhm-hide{display:none;}
+.sec-codetxt{ vertical-align:middle; overflow:hidden;}
+.sec-codecon span{float:left;width:60px;height:35px; padding-top:10px;  background:url(//css.dhresource.com/mobile_v2/payment/image/pay.png?v=20160527) no-repeat 0 -104px; 
+background-size:185px auto;}
+.more-payment-top{overflow:hidden;position:absolute;z-index:1;top:0;right:0;height:33px;}
+.more-payment-top a{display:inline-block;padding-right:10px; line-height:40px;}
+.more-payment-top a span{top:15px; right:0;}
+@media screen and (min-device-width:414px){
+.otherPaycard span,.otherPaycard2 span{ background:url(//css.dhresource.com/mobile_v2/payment/image/pay.png?v=20160527) no-repeat;background-size:123px auto;}
+.otherPaycard li.ideal .card-icon,.otherPaycard2 li.ideal .card-icon{ background-position:25px -79px;}
+.otherPaycard li.unionpay .card-icon,.otherPaycard2 li.unionpay .card-icon{ background-position:20px -154px;}
+.otherPaycard li.sofort .card-icon,.otherPaycard2 li.sofort .card-icon{ background-position:0 -195px;}
+.otherPaycard li.giropay .card-icon,.otherPaycard2 li.giropay .card-icon{ background-position:10px -233px;}
+.sec-codecon span{background-position:-59px -105px; background-size:123px auto;}
+.visa-tips{ background:#f5f4ef url(//css.dhresource.com/mobile_v2/payment/image/zkbg3.png) no-repeat 15px 7px;background-size:19px 27px;}
+.visamdae span{ background:url(//css.dhresource.com/mobile_v2/payment/image/pay.png?v=20160527) no-repeat;background-size:123px auto;}
+.visamdae span:nth-child(1){ background-position:-59px 0;}
+.visamdae span:nth-child(2){ background-position:-60px -24px;}
+.visamdae span:nth-child(3){ background-position:-60px -48px;}
+}
+@media screen and (min-width:480px){
+.exp-day select,.exp-year select{background:url(//css.dhresource.com/mobile_v2/payment/image/sj.png) no-repeat 95.5% center;background-size:12px 8px}
+.cart-numtxt select,.bill-txt select{background:url(//css.dhresource.com/mobile_v2/payment/image/sj.png) no-repeat 99.5% center;background-size:12px 8px}
+}
+
+.sec-tips, .sec-tips1{ display:inline-block; float:left; color:#a6a398;padding:5px 0 0 5px; width:50%;}
+.sec-tips1{padding:5px 0 0 0; width:100%;}
+
+.bill-adress{margin-top:15px; color:#39362b;}
+.bill-adress h3{margin-bottom:12px;color:#333;font-size:16px;padding:0 10px 0 0;line-height:18px;}
+.bill-adress h3 a{float:right;color:#004080;font-size:16px}
+.bill-adress p{font-size:14px; word-wrap: break-word;}
+.bill-addresscon{padding:12px 0}
+.bill-addresscon p{line-height:24px;color:#333;font-size:12px}
+.pay-now{ padding:15px 0;}
+.pay-now-tit{ padding:10px 0;font-size:14px; color:#39362b; text-align:center;}
+.pay-now-btn{  width:100%; height:45px; line-height:45px; background:-webkit-gradient(linear,0 0,0 bottom,from(#ffd42f),to(#ffcb05));background: -moz-linear-gradient(top, #ffcb05, #ffd42f);background: -o-linear-gradient(top, #ffd42f, #ffcb05); border:0; font-size:14px; color:#39362b; border:solid 1px #d5ab0c; border-radius:3px;}
+
+
+.pay-btn,.billEdit-save-btn{margin-top:25px; padding-bottom:25px;}
+.pay-btn input,.billEdit-save-btn input{width:100%;height:42px;font-size:16px;text-align:center;font-weight:bold;cursor:pointer;border-radius:2px;border:1px solid #f2cc68;color:#693a0d;-moz-box-shadow:0 1px 1px rgba(234,195,110,0.65);-webkit-box-shadow:0 1px 1px rgba(234,195,110,0.65);box-shadow:0 1px 1px rgba(234,195,110,0.65);background:-webkit-gradient(linear,0 0,0 100%,from(#fff5d9),to(#ffe4ba));background:-moz-linear-gradient(top,#fff5d9,#ffe4ba);background:-o-linear-gradient(top,#fff5d9,#ffe4ba)}
+.chooseCard{height:34px;border:1px solid #feb901;border-radius:2px;-webkit-column-count:2;-moz-column-count:2;-o-column-count:2;-moz-column-gap:0;-webkit-column-gap:0}
+.visacard,.dhpay{display:block;text-align:center;width:100%;height:34px;-moz-box-sizing:border-box;-o-box-sizing:border-box;-webkit-box-sizing:border-box}
+.visacard{padding-top:9px}
+.dhpay em{display:block;width:58px;height:34px;margin:0 auto;background:url(//css.dhresource.com/mobile/pay/image/dhpay.png?v=20160527) no-repeat center 9px;background-size:58px 17px}
+.visacard span{display:block;padding-left:33px;margin:0 auto;color:#404040;font-size:15px;font-weight:bold;width:40px;height:19px;line-height:19px;background:url(//css.dhresource.com/mobile/pay/image/card.png) no-repeat 0 0;background-size:27px 17px}
+.p-active{background-color:#feb901}
+.p-active span{color:#fff}
+.p-active em{background:url(//css.dhresource.com/mobile/pay/image/dhpayActive.png) no-repeat center 9px;background-size:58px 17px}
+.dhpay-con h4{padding:12px 0 0 81px;color:#333;font-weight:bold;background:url(//css.dhresource.com/mobile/pay/image/dhpay.png?v=20160527) no-repeat 10px 12px;background-size:58px 17px}
+.dapay-subcon ul{padding:7px 0 0}
+.dapay-subcon li{line-height:20px;color:#008000}
+.dapay-subcon li span{float:left;text-align:right;color:#333;padding-right:15px}
+.dapay-subcon li b{color:#900;font-weight:bold}
+.pay-balance{color:#333}
+.pay-balance em{font-style:normal;color:#900}
+.dhpay-pass{padding:5px 0 0 0}
+.dhpay-passtxt{padding-bottom:20px}
+.contact-name{width:100%;height:100%;display:-moz-box;display:-webkit-box}
+.conctact-txtone,.conctact-txttwo{width:50%;-moz-box-flex:1;-webkit-box-flex:1;box-flex:1}
+.conctact-txtone{margin-right:10px}
+.contact-name input{width:100%}
+.bill-txt,.bill-txt1{padding-top:15px}
+.det-hdtitle{display:block;color:#333;font-size:18px;line-height:43px;font-weight:bold;text-align:center;margin:0 60px}
+.w-bindSucc{padding:18px 18px 18px 48px;font-weight:bold;margin:10px 15px 5px;border:1px solid #baeb9a;background:#f5fdf3 url(//css.dhresource.com/mobile/pay/image/succ.png) no-repeat 14px 14px;background-size:25px 25px}
+.view-order{text-align:center;padding:15px 0 0 0;font-weight:bold}
+.view-order a{color:#039}
+.error-tips,.edit-error-tips,.new-error-tips{display:none;color:red;padding-top:5px;clear:both;}
+.bill-txt .color-f00,.conctact-txtone .color-f00,.conctact-txttwo .color-f00,.dhpay-passtxt .color-f00,.cart-numtxt .color-f00,.exp-datetxt .color-f00,.sec-codetxt .color-f00,.dhpay-passtxt .color-f00,.telephonecode  .color-f00,.sec-codecon  .color-f00{border:1px solid red}
+.one-card{-webkit-column-count:1;-moz-column-count:1;-o-column-count:1;-moz-column-gap:0;-webkit-column-gap:0}
+.telephone{padding-top:15px;}
+.telephone-inner{width:100%; height:100%;display:-moz-box;display:-webkit-box;}
+.areacode{width:80px; margin-right:10px;}
+.telephonecode{-moz-box-flex:1;-webkit-box-flex:1;box-flex:1}
+.areacode input{width:100%; background:#f0f0f0;}
+.telephonecode input{width:100%}
+.dhm-htmlOverflow,.dhm-htmlOverflow body{overflow:hidden;height:100%;}
+.newpayWarp-close .paycon, .newpayWarp-open .paycon{position:relative; padding:0;}
+.newpayWarp-close .pay-subcon, .newpayWarp-open .pay-subcon{overflow-y:scroll; -webkit-overflow-scrolling:touch; padding:0 15px;}
+.newpayWarp-close,.newpayWarp-open{z-index:888;}
+.newpayWarp-close,.newpayWarp-open{transition-duration:500ms;ms-moz-transition-duration:500ms;-webkit-transition-duration:500ms;position:absolute;top:0;left:0;width:100%;height:100%;background:#fff;}
+.newpayWarp-close{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);-moz-transform:translate3d(100%,0,0);}
+.newpayWarp-open{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);}
+.card-header{position:relative; width:100%; height:43px; line-height:43px; font-weight:700; font-size:18px; text-align:center; border-bottom:1px solid #ddd; background:-webkit-gradient(linear,center top,center bottom,color-stop(0,#fff),color-stop(0.97,#f6f6f6),color-stop(1,#f2f2f2)); background:-moz-linear-gradient(top,#fff,#f2f2f2); background:-o-linear-gradient(top,#fff,#f2f2f2);}
+.card-header-back, .card-header-back span{background:url(//css.dhresource.com/mobile_v2/payment/image/back1.png) no-repeat;}
+.card-header-back{position:absolute; top:7px; left:15px; padding-left:21px; font-size:12px; color:#333;}
+.card-header-back span{float:left; padding-right:15px; height:31px; line-height:31px; background-position:100% 0;}
+.pay-line{position: relative;display: inline-block;top:-1px;color:#c9c6b8;padding-right: 5px;font-style: normal;}

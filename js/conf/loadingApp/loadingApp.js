@@ -1,0 +1,10 @@
+//loadingApp页依赖的公用tools
+$IMPORT('src/common/tools/jquery.cookie.js');
+$IMPORT('src/common/tools/deeplink.js');
+//loadingApp页依赖公用模块
+$IMPORT('src/common/config.js');
+$IMPORT('src/common/langLoader.js');
+$IMPORT('src/common/appopen.js');
+//loadingApp页功能模块
+$IMPORT('src/loadingApp/index.js');
+$IMPORT('src/loadingApp/main.js');

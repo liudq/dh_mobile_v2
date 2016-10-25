@@ -1,0 +1,7 @@
+/* 多维度页面 */
+.nav{height:35px;line-height: 35px;background-color: #fff;}
+.relateWordTit{line-height: 45px;background: #f5f4ef;font-weight: normal;}
+.list-title,.by-sellername,.orders{display: block;}
+.by-sellername{color:#a6a398;padding-bottom:8px;}
+.relateWordTit a{display:block;color: #07c;font-size: 12px;padding:0 10px;}
+.mutiPage{background-color: #f5f4ef;}

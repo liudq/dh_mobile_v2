@@ -1,0 +1,1 @@
+{"data":{"3D":false,"orders":[{"orderId":"4028cca84f6361c9014f6374b897006b","orderNo":"1531158845"},{"orderId":"4028cca84f6361c9014f6374b897006a","orderNo":"1531158846"}],"url":"https://www.dhpay.com/gateway/api.do?act=nextStep&bank_code=ADYEN&dhpay_order_id=20150825140507_169213"},"message":"pay.3d.jump","serverTime":1440482711477,"state":"0x0000"}

@@ -1,0 +1,9 @@
+//获取coupon页面依赖的公用业务功能模块
+$IMPORT('src/common/checkoutflow/popupTip.js');
+//获取coupon页面模板
+$IMPORT('src/getCoupon/tpl/getCouponTpl.js');
+//获取coupon页面功能模块
+$IMPORT('src/getCoupon/bindCoupon.js');
+$IMPORT('src/getCoupon/getCouponList.js');
+$IMPORT('src/getCoupon/index.js');
+$IMPORT('src/getCoupon/main.js');

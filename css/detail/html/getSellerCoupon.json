@@ -1,0 +1,38 @@
+{
+    "data": {
+        "currencyText": "US $",
+        "resultList": [
+            {
+                "campaignId": "ff808081548fbebe01552493ccb213b5",
+                "campaignName": "coupons -1",
+                "couponAmount": 20,
+                "couponCode": "FMENN5C1C9",
+                "endDate": 1467302340000,
+                "ifBuyerBind": true,
+                "minOrderAmount": 200,
+                "startDate": 1465203600000,
+                "totalNumber": 300,
+                "usedNumber": 9,
+                "valid": "1",
+                "validday": 90
+            },
+            {
+                "campaignId": "ff808081548f0790015524963cdc169b",
+                "campaignName": "coupons -2",
+                "couponAmount": 30,
+                "couponCode": "QHILAN47GC",
+                "endDate": 1467302340000,
+                "ifBuyerBind": false,
+                "minOrderAmount": 300,
+                "startDate": 1465203600000,
+                "totalNumber": 120,
+                "usedNumber": 3,
+                "valid": "1",
+                "validday": 90
+            }
+        ]
+    },
+    "message": "Success",
+    "serverTime": 1466074552062,
+    "state": "0x0000"
+}

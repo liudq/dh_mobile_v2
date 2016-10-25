@@ -1,0 +1,66 @@
+/*标题*/
+.title{height: 40px;line-height:38px;padding-left: 10px;}
+.tBorder{border:1px solid #f5f4ef;}
+.title h1{color:#39362b;font-size: 16px;}
+.defaultHeight{height: 280px;}
+/*收藏列表*/
+.no-item{margin: 30px auto 40px;color: #68655e;text-align: center;}
+.j-myFav{padding: 5px 10px;}
+.j-myFav a{display: block;}
+.j-myFav li{width:100%;height:110px;border-bottom: 1px solid #f5f4ef;padding: 10px 0;position: relative;}
+.j-myFav .list-img {float: left;width: 110px;height: 110px;display: inline-block;text-align: center;}
+.j-myFav .list-img img{max-width: 110px;max-height: 110px;}
+.j-myFav .list-cont{margin-left: 125px;}
+.j-myFav .list-cont span{display: block;color: #39362b;margin-bottom: 2px}
+.j-myFav .list-cont .text-black,.j-myFav .removeArea .text-black{max-height: 35px;overflow: hidden;display: -webkit-box;-webkit-line-clamp: 2;  -webkit-box-orient: vertical;  word-break: break-all;}
+.j-myFav .list-cont .text-promotion{display:inline-block;vertical-align:bottom;color: #f3b202;}
+.j-myFav .list-cont .promo{display:inline-block;height:17px;font-weight: normal; padding: 1px 0 0 8px; background: url('http://css.dhresource.com/mobile_v2/myFavorites/image/line.jpg') no-repeat 0 5px}
+.j-myFav .list-cont .now-price{color: #a6a398;}
+.j-myFav .list-cont .now-price b{font-weight: bold;color: #39362b}
+.j-myFav .list-cont .free-shipping{font-size: 10px;}
+.j-myFav .list-cont .min-order{font-size: 10px;color:#a6a398;margin-bottom: 0}
+.j-myFav .expired-product{background: #f5f4ef}
+.j-myFav .expired-product .list-img{width:110px;height:110px;background: #cbc8bb url("http://css.dhresource.com/mobile_v2/myFavorites/image/pic_photo@2x.png") 1px 0 no-repeat;}
+.j-myFav .expired-product .text-black,.j-myFav .sold-out .text-black{color: #a6a398}
+.j-myFav .expired-product .ep,.j-myFav .sold-out .so{color: #ff0000;font-size: 14px}
+.j-myFav .j-delete-fav{position:absolute;right:0; bottom: 5px;display:inline-block;width:18px;height:16px;background: url("http://css.dhresource.com/mobile_v2/common/image/icon/icon.png") 0 -14px no-repeat;background-size:150px 50px;}
+.j-myFav .un-do span{display:block;margin: 0 auto;vertical-align: middle;}
+.j-myFav .un-do .text-remove{font-weight: bold;}
+.j-myFav .un-do .undo{position: absolute;right: 0;bottom: 5px;color: #0077cc}
+.j-myFav .removeArea{max-width: 214px;margin: 22px auto;}
+.j-myFav .no-img{background: #cbc8bb}
+.j-myFav .no-img img{width: 81px;height: 81px;margin: 15px auto;}
+/*show more*/
+.show-more {display:block;background-color: #fff;width: 100%;font-size: 14px; text-align: center; height: 45px;line-height: 45px;  margin:10px 0;border: 1px solid #c7c7c7; border-radius: 4px;  color: #898888; display: inline-block;  cursor: pointer  }
+/*翻页*/
+/*.favPage{margin: 10px 10px 15px;position: relative;text-align: center;}
+.favPage a,.favPage span{display: inline-block;font-size: 16px;}
+.favPage a b{display:inline-block;width:8px;height:11px; background: url("http://css.dhresource.com/mobile_v2/common/image/icon/icon.png") 0 0 no-repeat;background-size: 150px 50px }
+.favPage .previous b{background-position: -44px -15px;margin-right: 3px;}
+.favPage .previous.disable b{background-position: -44px -2px;}
+.favPage .next b{background-position: -59px -2px;margin-left: 5px;}
+.favPage .next.disable b{background-position: -59px -15px;}
+.favPage .previous,.favPage .next{position:absolute;padding: 15px;border:1px solid #cbc8bb;background: -webkit-linear-gradient( bottom,#f1efe4,#f5f4ef);border-radius: 5px;color: #39362b;}
+.favPage .disable{background: #f5f4ef;color:#cbc8bb;border:1px solid #ebeae4;}
+.favPage .page{padding: 15px;text-indent: 28px;color: #a6a398}
+.favPage .page b{font-weight: bold;color: #39362b}
+.favPage .previous{left: 0;top: 0;}
+.favPage .next{right: 0;top: 0}*/
+
+/*iphone 6 plus*/
+@media screen and (min-device-width: 414px){
+    /*header black end*/
+    .j-myFav li{height:140px;}
+    .j-myFav .list-img {width: 140px;height: 140px;}
+    .j-myFav .list-img img{max-width: 140px;max-height: 140px;height: auto;}
+    .j-myFav .list-cont{margin-left: 155px;}
+    .j-myFav .list-cont span{margin-bottom: 5px;}
+    .j-myFav .expired-product .list-img{width:140px;height:140px;background: #cbc8bb url("http://css.dhresource.com/mobile_v2/myFavorites/image/pic_photo@3x.png") 1px 0 no-repeat;background-size: 140px 140px}
+    .j-myFav .list-cont .text-black{max-height: 38px;}
+    .j-myFav .expired-product .list-img{width: 140px;height: 140px;}
+    .j-myFav .j-delete-fav{width:27px;height:24px;bottom: 14px;background-position:0 -18px;background-size:225px 75px;}
+    .j-myFav .removeArea{max-width: 321px;margin: 34px auto;}
+    .j-myFav .un-do .undo{position: absolute;right: 0;bottom: 14px;color: #0077cc;}
+    .j-myFav .no-img img{width: 108px;height: 108px;margin: 16px auto;}
+}
+

@@ -1,0 +1,1 @@
+{"data":{"shipCostAndWay":{"countryId":"US","countryName":"United States","deliveryTime":"6-23","expressType":"ePacket","leadingTime":2,"lowerDate":"Jul 18","shipTimeMax":23,"shipTimeMin":6,"shipcost":0,"stockCountryId":"CN","upperDate":"Aug 04"},"whitherCountry":"US","whitherCountryName":"United States"},"message":"Success","serverTime":1467959011781,"state":"0x0000"}

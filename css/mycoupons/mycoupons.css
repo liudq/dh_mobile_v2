@@ -1,0 +1,33 @@
+.conWarp{ padding-bottom:20px;background-color:#f5f4ef; color:#39362b;}
+.content{ padding:0 10px;}
+.con-title{ text-align:center; font-size:18px; line-height:40px;}
+.add-couponcode{position:relative; margin-bottom:10px; height:30px;}
+.code-text-box{  margin-right:80px;}
+.add-couponcode input{height:29px; line-height:29px;border:solid 1px #cbc8bb;color:#39362b;}
+.code-text{ padding-left:15px; width:100%;  background-color:#fff;  color:#cbc8bb; -moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.code-but{ float:right;width:75px; text-align:center; height:30px; border-radius:3px; background:-webkit-gradient(linear,0 0,0 100%,from(#f5f4ef),to(#f1efe4));background:-moz-linear-gradient(top,#f5f4ef,#f1efe4);background:-o-linear-gradient(top,#f5f4ef,#f1efe4);}
+.note{ padding:5px 0 10px; color:#68655e;}
+.coupon-box{ margin-bottom:15px;}
+.coupon-tit{ position:relative; padding:0 30px 0 10px; height:40px; line-height:40px; background-color:#090;border-radius:8px 8px 0 0; color:#fff; font-size:14px; overflow:hidden;}
+.coupon-goto{ position:absolute; right:10px; top:0; display:block; height:40px; padding-right:18px; background:url(http://css.dhresource.com/mobile_v2/mycoupons/image/sj.png) no-repeat 100% 13px; background-size:9px 15px;}
+.coupon-goto a{ color:#fff; display:block;}
+.coupon-con{ position:relative;padding:15px 10px; background:#fff; border-radius:0 0 8px 8px; }
+.coupon-con dt{ margin-bottom:12px;font-size:14px; color:#636363;line-height:18px;}
+.coupon-con dt b{ display:block; color:#68655e; font-size:18px; }
+.coupon-con dd{ color:#a6a398;line-height: 20px; overflow: hidden; text-overflow: ellipsis; max-height: 40px;}
+.coupon-data{ color:#68655e;}
+.coupon-soon{ position:absolute; top:10px; right:10px; font-size:14px; color:#ea7c69;}
+.soon-color{ color:#f3b202;}
+.show-more{ height:44px; line-height:44px; background-color:#fff; border:solid 1px #cbc8bb; font-size:14px; text-align:center;border-radius:3px;}
+.used-expired{ position:relative; margin:14px 0 20px; border-bottom:solid 1px #cbc8bb; height:20px; color:#a6a398; text-align:center;}
+.used-expired span{ position:absolute; left:50%; top:10px; display:inline-block; width:140px; margin-left:-70px; background-color:#f5f4ef;}
+.in-app{ margin:0 105px; height:44px; line-height:44px; font-size:14px; text-align:center; border:solid 1px #b0aca1; border-radius:3px; background:-webkit-gradient(linear,0 0,0 100%,from(#f5f4ef),to(#f1efe4));background:-moz-linear-gradient(top,#f5f4ef,#f1efe4);background:-o-linear-gradient(top,#f5f4ef,#f1efe4);}
+.in-app a{ display:block; height:44px;}
+.con-getcoupons{ padding:45px 0; text-align:center; font-size:14px; color:#68655e;}
+.get-coupons{ margin:15px 75px 0; height:43px; line-height:43px; font-size:14px; text-align:center; border:solid 1px #d5ab0c; border-radius:3px; background:-webkit-gradient(linear,0 0,0 100%,from(#ffd32e),to(#ffcb06));background:-moz-linear-gradient(top,#ffd32e,#ffcb06);background:-o-linear-gradient(top,#ffd32e,#ffcb06);}
+.layer-box{ margin:0 15px; padding:0 10px;  -moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:4px; text-align:center;  }
+.errorTxt{ padding:33px 0 35px;margin: 0 10px;}
+.center .sure{height:43px; line-height:43px; font-size:18px; color:#07c;padding: 0px;-webkit-tap-highlight-color:rgba(255,255,255,0.5);}
+.the-top{width:44px;height:44px;position:fixed;bottom:50px;right:5px;background:url(http://css.dhresource.com/mobile_v2/storeShop/image/go-top.png) no-repeat; background-size:44px 44px;}
+.used-expired em{font-style: normal;}
+.loading{display:none;background: url(http://css.dhresource.com/mobile_v2/storeShop/image/load.gif) no-repeat center;background-size: 35px 35px; width: 100%; height: 50px;}

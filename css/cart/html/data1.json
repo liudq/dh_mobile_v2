@@ -1,0 +1,79 @@
+{
+    "data": {
+        "cartItemCount": 4,
+        "cartItemGroups": [{
+            "cartItemCount": 2,
+            "cartItems": [{
+                "amount": 50.87,
+                "canDelivery": true,
+                "cartItemId": "ff80808150178dba01504529d3aa0009",
+                "currency": "USD",
+                "imgURL": "http://image.dhgate.com/100x100/f2/albu/g1/M00/00/00/wKjfHVXMjHiICIftAADIHJQhV4sAAAAGQL2LmAAAMg0878.jpg",
+                "inventoryStatus": true,
+                "itemCode": 218616732,
+                "leadingTime": 2,
+                "maxQuantity": 8,
+                "minQuantity": 1,
+                "price": 888.87,
+                "prodName": "test Empire Wedding test Wedding Wedding test Empire Wedding",
+                "quantity": 7,
+                "sellStatus": true,
+                "skuInfo": "[Custom Made From Color Chart] [Custom Made From Color Chart] [Custom Made From Color Chart]",
+                "skumd5": "6183735f1f5693f95d0d55c14acb0f77",
+                "unit": "Piece"
+            },{
+                "amount": 49.87,
+                "canDelivery": true,
+                "cartItemId": "ff80808150178dba01504529d3aa0008",
+                "currency": "USD",
+                "imgURL": "http://image.dhgate.com/100x100/f2/albu/g1/M00/00/00/wKjfHVXMjHiICIftAADIHJQhV4sAAAAGQL2LmAAAMg0878.jpg",
+                "inventoryStatus": true,
+                "itemCode": 218616732,
+                "leadingTime": 2,
+                "maxQuantity": 10,
+                "minQuantity": 1,
+                "price": 49.87,
+                "prodName": "0832 test Empire Wedding Dresses",
+                "quantity": 2,
+                "sellStatus": false,
+                "skuInfo": "[White] [12] [56w]",
+                "skumd5": "6183735f1f5693f95d0d55c14acb0f77",
+                "unit": "Piece"
+            }],
+            "supplier": {
+                "supplierId": "ff8080813d1f3743013d3e48a26b007c",
+                "supplierName": "zzt001"
+            }
+        },{
+            "cartItemCount": 1,
+            "cartItems": [{
+                "amount": 49.87,
+                "canDelivery": true,
+                "cartItemId": "ff80808150178dba01504529d3aa0007",
+                "currency": "USD",
+                "imgURL": "http://image.dhgate.com/100x100/f2/albu/g1/M00/00/00/wKjfHVXMjHiICIftAADIHJQhV4sAAAAGQL2LmAAAMg0878.jpg",
+                "inventoryStatus": false,
+                "itemCode": 218616732,
+                "leadingTime": 2,
+                "maxQuantity": 2,
+                "minQuantity": 1,
+                "price": 51.87,
+                "prodName": "0831 test Empire Wedding Dresses",
+                "quantity": 1,
+                "sellStatus": false,
+                "skuInfo": "[White] [12] [56w]",
+                "skumd5": "6183735f1f5693f95d0d55c14acb0f77",
+                "unit": "Piece"
+            }],
+            "supplier": {
+                "supplierId": "ff8080813d1f3743013d3e48a26b007c",
+                "supplierName": "zzt002"
+            }
+        }],
+        "isVipBuyer": false,
+        "shipToCountry":"us"
+    },
+    "message": "失败",
+    "serverTime": 1444288307716,
+    "state": "0x0000"
+}

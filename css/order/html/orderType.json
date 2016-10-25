@@ -1,0 +1,12 @@
+{
+  "result": "1",
+  "ordersCount": {
+    "completedcount": 8,
+    "canceledcount": 597,
+    "shippedcount": 0,
+    "awaitingpaycount": 9,
+    "awaitingShipmentcount": 0,
+    "pendingConfirmationcount": 0,
+    "refundcount": 15
+  }
+}

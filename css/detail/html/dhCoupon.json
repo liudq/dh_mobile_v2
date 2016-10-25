@@ -1,0 +1,43 @@
+{
+	"data":[{
+				"campaignid":"123123",
+				"campaignname":5.0,
+				"couponcode":"123123",
+				"couponBuyerId":"234234234",
+				"amount":12,
+				"orderAmo":100,
+				"type":2,
+				"allcategory":2323,
+				"endDateFormat":321345646,
+				"plateForm":"all",
+				"validday":7
+			},{
+				"campaignid":"3434324234",
+				"campaignname":6.0,
+				"couponcode":"123123",
+				"couponBuyerId":"234234234",
+				"amount":20,
+				"orderAmo":200,
+				"type":2,
+				"allcategory":2323,
+				"endDateFormat":321345895,
+				"plateForm":"all",
+				"validday":7
+			},{
+				"campaignid":"3434324234",
+				"campaignname":6.0,
+				"couponcode":"123123",
+				"couponBuyerId":"234234234",
+				"amount":20,
+				"orderAmo":200,
+				"type":2,
+				"allcategory":2323,
+				"endDateFormat":321345895,
+				"plateForm":"all",
+				"validday":7
+			}],
+	"currencyText":"US $",		
+	"message":"Success",
+	"serverTime":1454307909079,
+	"state":"0x0000"
+}

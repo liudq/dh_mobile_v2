@@ -1,0 +1,6 @@
+.icon-nofavorite,.icon-hasfavorite{display: inline-block;width: 13px;height: 12px;background:url(http://css.dhresource.com/mobile_v2/common/image/icon/icon.png) no-repeat 0 0;background-size:150px auto;}
+.icon-hasfavorite{background-position: -1px -14px;}
+@media screen and (min-device-width:414px){
+	.icon-nofavorite,.icon-hasfavorite{background-position: -13px auto;background-size: 100px auto;}
+	.icon-hasfavorite{background-position: -13px -14px;}
+}

@@ -1,0 +1,245 @@
+/*reset start*/
+body{color:#39362b;font:12px/1.5 Myriad Set Pro,Helvetica Neue,Helvetica,Arial,sans-serif;}
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,label,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block;}
+audio,canvas,progress,video{display:inline-block;vertical-align:baseline;}
+audio:not([controls]){display:none;height:0;}
+[hidden],template{display:none;}
+ol,ul{list-style:none}
+a{background-color:transparent;text-decoration:none;color:#39362b;}
+a:active,a:hover{outline:0;}
+abbr[title]{border-bottom:1px dotted;}
+b,strong{font-weight:bold;}
+dfn{font-style:italic;}
+h1{font-size:2em;margin:0.67em 0;}
+mark{background:#ff0;color:#000;}
+small{font-size:80%;}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{border:0;}
+svg:not(:root){overflow:hidden;}
+figure{margin:1em 40px;}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}
+pre{overflow:auto;}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em;}
+button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;}
+button{overflow:visible;}
+button,select{text-transform:none;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button[disabled],html input[disabled]{cursor:default;}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+input{line-height:normal;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}
+legend{border:0;padding:0;}
+textarea{overflow:auto;}
+optgroup{font-weight:bold;}
+table{border-collapse:collapse;border-spacing:0;}
+td,th{padding:0;}
+.clearfix:after {clear:both;font-size:0;height:0;display:block;visibility:hidden;content:'';line-height:0}
+/*reset end*/
+/*dhm common start*/
+.dhm-hide{display:none;}
+.dhm-htmlOverflow,.dhm-htmlOverflow body{overflow:hidden;height:100%;}
+/*dhm common end*/
+/*download start*/
+.top-download{position:relative;padding:5px 0;height:53px;background-color:#39362b;}
+.top-download .downClose{position:absolute;left:0;top:6px;width:50px;height:50px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 15px -373px;background-size:350px auto;}
+.downCentent{display:block;position:relative;margin:0 0 0 50px;font-size:18px;color:#fff;z-index:2;}
+.down-logo{display:inline-block;width:53px;height:53px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 0 -426px;background-size:350px auto;}
+.down-text{position:absolute;left:62px;top:6px;width:160px;font-size:16px;line-height:20px;}
+.down-but{position:absolute;right:15px;top:11px;width:58px;padding-left:24px;height:40px;line-height:40px;font-size:18px;text-align:center;background:#ffcb05 url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 12px -664px;background-size:350px auto;border-radius:5px;cursor:pointer;}
+/*download end*/
+.head-top{position:relative;width:100%;height:50px;background-color:#fff;text-align:center; border-bottom:solid 1px #cbc8bb;}
+.head-category{position:absolute;left:0;top:0;}
+.head-category a{display:block;width:50px;height:50px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 14px -43px;background-size:350px auto;}
+.head-category span{display:block;position:absolute;left:30px;top:10px;width:7px;height:7px;background-color:#ffcb05;border-radius:4px;}
+.logo{display:block;margin:0 auto;width:100px;height:50px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 0 15px;background-size:350px auto;text-indent:-2000px;}
+.head-right{position:absolute;right:0;top:0;}
+.head-cart{position:relative;display:block;width:50px;height:50px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 4px -101px;background-size:350px auto;}
+.cart-nub{position:absolute;right:12px;top:5px;width:30px;text-align:center;font-size:16px;color:#f3b202;font-weight:700;}
+.section-active{position:absolute;z-index:888;top:0;left:0;width:100%;height:100%;background:#fff;}
+.head-search{position:relative;padding:5px;height:45px;background-color:#68655e;}
+.search-box{height:45px;background-color:#fff;}
+.search-mar{margin-right:77px;}
+.search-cancel{position:absolute;right:5px;top:5px;width:72px;height:45px;}
+.search-cancel a{display:block;height:45px;line-height:45px;text-align:center;font-size:14px;color:#fff;}
+.search-close{position:absolute;right:130px;top:14px;width:30px;height:30px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat -96px -379px;background-size:350px auto;cursor:pointer;}
+.search-mar0 .search-close{right:50px;}
+.search-btn{float:right;width:45px;height:45px;background:#ffe069 url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 0 -150px;background-size:350px auto;border:0;border-radius:0}
+.search-text{margin-right:75px;}
+.search-text input{width:100%;height:45px;border:0;text-indent:10px;color:#cbc8bb;font-size:18px;background-color:#fff;outline: none;}
+.search-text input.inputtext{color:#39362b;}
+.search-clear{position:relative;padding:0 15px;font-size:14px;color:#a6a398;height:30px;line-height:30px;border-bottom:solid 1px #ebeae4;}
+.search-clear a{position:absolute;top:0;right:15px;color:#07c;}
+.search-list{-webkit-tap-highlight-color:transparent;}
+.search-list ul{overflow-y:scroll;}
+.search-list li{position:relative;border-bottom:solid 1px #f5f4ef;padding:12px 15px;font-size:16px; line-height:18px;color:#39362b;}
+.search-list li span{position:absolute;top:10px;right:35px;width:25px;height:25px;text-align:center;line-height:25px;color:#39362b;background-color:#ffefb4;border-radius:12px;}
+/* 搜索列表添加类目搜索以及属性搜索 2016-07-06 by zz */
+.search-list .suggestcon{padding-bottom: 10px;}
+.search-list .suggestcon li{border-bottom: 0px;font-size: 14px;}
+.search-list .suggestcon li:nth-child(3){border-bottom:solid 1px #ebeae4;}
+.search-list .suggestcon li .cateName{color:#f3b202;}
+.search-list .suggestcon li .attrName{font-size: 12px;margin-left:5px;display: inline-block;height:30px;line-height:30px;padding:0 15px;word-break:break-all;word-wrap:break-word;color:#68655e;text-align:center;border-radius:3px;border:solid 1px #b0aca1;background:-webkit-gradient(linear,0 0, 0 100%,from(#f5f4ef),to(#f1efe4));background:-moz-linear-gradient(top,#f5f4ef,#f1efe4);background:-o-linear-gradient(top,#f5f4ef,#f1efe4)}
+/*.search-list .suggestcon .key-label{padding-top:0;padding-bottom:0px;}*/
+.search-list .suggestcon .key-label .searchkey{display: block;float: left; color: #333;margin: 0 12px 0 0;max-height: 40px;line-height: 18px;text-overflow: ellipsis;overflow: hidden;}
+.search-list .suggestcon .key-label  .attrcon{height: 32px;overflow: hidden;text-align:right;}
+.attr-wrap{zoom:1;overflow:hidden;background: #f5f4ef;padding: 5px 15px 15px;}
+.attr-wrap span{padding:10px 0 0 0;float: left;width: 50%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+.attr-wrap span:nth-child(2n){padding-left: 5px;}
+.attr-wrap span:nth-child(2n+1){padding-right: 5px;}
+.attr-wrap span a{overflow:hidden;text-indent:5px;text-overflow:ellipsis;display: inline-block;color:#39362b;width:100%;height:44px;line-height:44px;text-align:center;border:1px solid #cbc8bb;background-color: #fff;border-radius: 3px;}
+/* 搜索列表添加类目搜索以及属性搜索 2016-07-06 by zz  */
+.head-search2{ position:absolute; right:50px; top:0; width:50px; height:50px; background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png) no-repeat -59px -150px; background-size:350px auto; cursor:pointer;}
+.category-layer{position:relative;}
+.category-layer-scroll{overflow-y:scroll;-webkit-overflow-scrolling:touch;}
+.categoryWarp-close,.categoryWarp-open{z-index:888;}
+.categoryOneWarp-close,.categoryOneWarp-open{z-index:889;}
+.categoryWarp-close,.categoryWarp-open,.categoryOneWarp-close,.categoryOneWarp-open{transition-duration:500ms;ms-moz-transition-duration:500ms;-webkit-transition-duration:500ms;position:absolute;top:0;left:0;width:100%;height:100%;background:#fff;}
+.categoryWarp-close,.categoryOneWarp-close{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);}
+.categoryWarp-open,.categoryOneWarp-open{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);}
+.category-menu{height:45px;border-bottom:solid 1px #ebeae4;box-shadow:0 0 2px 1px rgba(0,0,0,0.1);}
+.menu-text{padding-left:15px;line-height:45px;}
+.menu-return{float:left;display:inline-block;margin-top:15px;width:9px;height:14px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat -14px -358px;background-size:350px auto;}
+.menu-text a{float:left;display:inline-block;padding-left:12px;font-size:18px;color:#39362b;}
+.category-close{position:absolute;top:0;right:0;width:50px;height:50px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 10px -510px;background-size:350px auto;cursor:pointer;}
+.category-sign,.category-signout{height:45px;line-height:45px;font-size:18px;text-align:center;}
+.category-sign{color:#cbc8bb;}
+.category-sign a{color:#07c;font-weight:bold;}
+.category-signout{color:#39362b;font-weight:bold;}
+.category-shop,.category-exclusivedeals{padding-left:40px;border-bottom:solid 1px #ebeae4;}
+.category-shop li,.category-exclusivedeals li{position:relative;height:45px;line-height:45px;font-size:16px;}
+.category-shop li a,.category-exclusivedeals li a{ display:block;}
+.s-home,.s-category,.s-cart,.s-language,.s-app,.s-exclusivedeals,.s-service{position:absolute;left:-30px;top:14px;display:block;width:20px;height:20px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat;}
+.s-home{background-position:0 -580px;background-size:350px auto;}
+.s-category{background-position:-1px -618px;background-size:350px auto;}
+.s-cart{background-position:-1px -766px;background-size:350px auto;}
+.s-language{background-position:0 -803px;background-size:350px auto;}
+.s-app{background-position:0 -841px;background-size:350px auto;}
+.s-exclusivedeals{background-position:0 -877px;background-size:350px auto;}
+.s-service{ background-position:0 -911px;background-size:350px auto;}
+.category-shop li.shop-category{border-bottom:none;}
+.category-shop li span,.category-list2 li span{position:absolute;top:35%;right:30px;width:9px;height:15px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 0 -358px;background-size:350px auto;}
+.category-shop2{padding-left:35px;}
+.category-shop2 p{color:#a6a398;font-size:16px;height:50px;line-height:50px;}
+.category-list2{padding-left:40px;overflow:hidden;}
+.category-list2 li,.category-language li,.category-feedback li{position:relative;padding:0 45px 0 0;height:45px;line-height:45px;}
+.category-list2 li a,.category-language li a,.category-feedback li a{display:block;color:#39362b;font-size:16px;font-weight:normal;font-family:Helvetica;}
+.category-list2 li{margin-bottom:-1px;}
+.category-list2 li a span{display:block;}
+.category-list2 li a span.point{position:absolute;left:-22px;top:17px;width:9px;height:9px;background:#ffcb05;border-radius:4px;}
+.category-list2 li a span.number{position:absolute;top:0px;right:50px;display:block;width:100px;background:none;color:#a6a398;text-align:right;}
+.category-list2 li a span.arrow{position:absolute;top:15px;right:25px;display:block;width:9px;height:15px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 0 -308px;background-size:350px auto;}
+.category-language,.category-feedback{padding:0 0 0 40px;border-top:solid 1px #ebeae4;border-bottom:solid 1px #ebeae4;overflow:hidden;}
+.category-feedback{ border-top:0;}
+.category-language li{position:relative;margin-bottom:-1px;}
+.category-language li span.English{position:absolute;top:0;right:25px;display:block;padding-right:20px;font-size:16px;color:#a6a398;}
+.category-language li span.English-errow{position:absolute;top:15px;right:30px;width:9px;height:15px;display:block;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 0 -358px;background-size:350px auto;}
+.category-out{padding:0 35px 0 40px;line-height:35px;font-size:14px;color:#a6a398;}
+.category-out a{font-weight:bold;color:#07c;}
+.language-box{overflow:hidden;padding:0 15px 15px;}
+.language-laye{padding:15px;}
+.language-box,.laye-Cancel{font-size:18px;line-height:44px;text-align:center;background:#fff;border-radius:8px;}
+.language-box li{margin-top:-1px;position:relative;border-top:solid 1px #ebeae4;height:44px;}
+.language-box li a{color:#39362b;}
+.language-box li span{display:block;position:absolute;right:30px;top:15px;width:22px;height:15px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat -65px -390px;background-size:350px auto;}
+.language-shadow{position:absolute;z-index:890;top:0;left:0;width:100%;height:100%;background:#68655e;opacity:0.3;}
+.laye-Cancel{margin-top:2px;border:solid 1px #cbc8bb;border-color:-webkit-linear-gradient(top,#f5f4ef,#f1efe4);font-weight:bold;border-radius:4px;background:-webkit-linear-gradient(top,#f5f4ef,#f1efe4);}
+.languageWarp-close,.languageWarp-open{z-index:891;transition-duration:500ms;ms-moz-transition-duration:500ms;-webkit-transition-duration:500ms;position:fixed;bottom:0;left:0;width:100%;height:441px;}
+.languageWarp-close{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);-moz-transform:translate3d(0,100%,0);}
+.languageWarp-open{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);}
+/*footer start*/
+.footer{ background-color:#f5f4ef;}
+.foot-sign{width:auto;margin:0 auto;padding:10px 5px 20px;text-align:center;font-size:18px;color:#a6a398;}
+.foot-sign a{font-weight:bold;color:#07c;}
+.foot-share{width:auto;margin:0 auto;text-align:center;}
+.foot-share ul{display:inline-block;}
+.foot-share li{float:left;margin-right:20px;width:35px;height:35px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat;background-size:350px auto;}
+.foot-share li a{display:block;height:35px;}
+.foot-share li.i1{background-position:0 -192px;}
+.foot-share li.i2{background-position:0 -232px;}
+.foot-share li.i3{background-position:0 -274px;}
+.foot-share li.i4{background-position:0 -315px;}
+.foot-copy{padding:20px 0;color:#a6a398;text-align:center;}
+.foot-copy a{padding:0 10px;color:#a6a398;}
+.foot-copy p{padding-top:5px;}
+/* you may like start*/
+.pro-tit{position:relative; padding:25px 0 15px;font-size:18px;color:#39362b;padding-left:0px;}
+.viewed1{ padding:0 10px 20px; background:#f5f4ef;}
+.viewed1 .pro-box{ height:178px;}
+.pro-tit .see-all{position:absolute;right:15px;top:42%;padding-right:15px;font-size:14px;color:#39362b;}
+.pro-tit .see-all span{position:absolute;top:15%;right:0;width:9px;height:15px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat 0 -358px;background-size:350px auto;}
+.pro-box{width:100%;height:196px;overflow:hidden; }
+.pro-box ul{ width:auto; overflow-x:auto; overflow-y:hidden; white-space:nowrap; -webkit-overflow-scrolling:touch;}
+.pro-box li{ position:relative;display:inline-block;margin-right:7px;width:130px;background:#fff; border:solid 1px #cbc8bb; }
+.pro-box li a{display:block;}
+.pro-img{overflow:hidden;vertical-align:middle;text-align:center;width:130px;height:130px;line-height: 130px;font-size:0;}
+.pro-img img{vertical-align:middle;margin:0 auto;max-width:100%;max-height:100%;}
+.pro-text{padding:10px 10px 15px;font-size:12px;color:#39362b;background-color:#fff; text-align:left;}
+.pro-piece{font-size:14px; font-weight:bold;}
+.pro-piece2{text-decoration:line-through;color:#a6a398;}
+.mobile-deals{display:inline-block;vertical-align:top;width:13px;height:16px;background:url(http://css.dhresource.com/mobile_v2/common/image/promotion/exclusiveprice.png) no-repeat -3px 0;background-size:16px 16px;}
+.you-viewed .pro-box{ height:102px; }
+.you-viewed .pro-box li{ width:100px; height:100px;border:solid 1px #cbc8bb;}
+.you-viewed .pro-box li a{ display:block; overflow:hidden; vertical-align:middle; text-align:center; height:100px; height:100px; line-height:100px;}
+.you-viewed .pro-box li a img{ vertical-align:middle; margin:0 auto; max-width:100%; max-height:100%;}
+/* you may like end*/
+/*footer end*/
+/*6 plus*/
+@media screen and (min-device-width:414px){
+.top-download .downClose{background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151127) no-repeat -87px -373px;background-size:233px auto;}
+.head-category a{background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151127) no-repeat -87px -34px;background-size:233px auto;}
+.down-logo{background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151127) no-repeat -102px -430px;background-size:233px auto;}
+.logo{background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151127) no-repeat -102px 15px;background-size:233px auto;}
+.head-cart{background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151127) no-repeat -102px -80px;background-size:233px auto;}
+.menu-return{background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151127) no-repeat -112px -356px;background-size:233px auto;}
+.search-btn{background:#ffe069 url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151127) no-repeat -102px -132px;background-size:233px auto;}
+.down-but{background:#ffcb05 url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151127) no-repeat -87px -672px;background-size:233px auto;}
+.category-icon li span{width:36px;height:34px;background:url(http://css.dhresource.com/mobile_v2/home/image/homepage2.png?v=20151027) no-repeat center;background-size:72px auto;}
+.category-icon li.li1 span{background-position:-34px 0;}
+.category-icon li.li2 span{background-position:-34px -35px;}
+.category-icon li.li3 span{background-position:-36px -72px;}
+.category-icon li.li4 span{background-position:-36px -109px;}
+.category-list li span{background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat -102px -353px;background-size:233px auto;}
+.foot-share li{background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat;background-size:233px auto;}
+.foot-share li.i1{background-position:-102px -175px;}
+.foot-share li.i2{background-position:-102px -221px;}
+.foot-share li.i3{background-position:-102px -268px;}
+.foot-share li.i4{background-position:-102px -305px;}
+.s-home,.s-category,.s-cart,.s-language,.s-app,.s-exclusivedeals,.s-service{background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20160621) no-repeat;}
+.s-home{background-position:-102px -588px;background-size:233px auto;}
+.s-category{background-position:-100px -632px;background-size:233px auto;}
+.s-cart{background-position:-102px -768px;background-size:233px auto;}
+.s-language{background-position:-102px -808px;background-size:233px auto;}
+.s-app{background-position:-102px -840px;background-size:233px auto;}
+.s-exclusivedeals{background-position:0 -877px;background-size:350px auto;}
+.s-service{ background-position:0 -911px;background-size:350px auto;}
+.cart-nub{right:16px;}
+.mobile-deals{width:8px;height:12px;margin:3px 3px 0 0;background:url(http://www.dhresource.com/dhs/mobile/img/home/exclusiveprice3.png) no-repeat 0 0;background-size:8px 12px;}
+.viewed-list .pro-piece{line-height:23px;}
+}
+/*5*/
+@media screen and (min-device-width:320px) and (max-width:370px){
+.downCentent{font-size:16px;color:#fff;}
+.down-but{right:10px;}
+.down-text{width:120px;font-size:12px;left:56px;line-height:18px;top:8px;}
+}
+@media screen and (min-device-width:359px) and (max-width:370px){
+.down-text{width:160px;font-size:16px;left:56px;line-height:20px;top:6px;}
+}
+@media all and (orientation:landscape){
+.language-box li span{width:35px;height:25px;top:10px;background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151127) no-repeat -242px -580px;background-size:345px auto;}
+}
+/* 促销标 start */
+.off-ico2,.reduction-ico,.offplus{position:absolute;left:-1px; top:-1px; padding:0 7px;height: 18px;line-height: 18px;background-color: #ec645e;color: #fff;font-size: 10px;}
+.offplus{ background-color:#f3b202;}
+@media screen and (min-device-width:374px){
+.off-ico2,.reduction-ico,.offplus{height:24px;line-height: 24px;padding: 0 8px;font-size:14px;}
+}
+/* 促销标 end */

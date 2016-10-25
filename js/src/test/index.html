@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
+<body>
+    <video id="video" width="320" height="240" autoplay></video>
+    <button id="snap">拍照吧</button>
+    <canvas id="canvas" width="320" height="240"></canvas>
+    <script type="text/javascript">
+        var camera = {
+            video: document.getElementById('video'),
+            canvas: document.getElementById('canvas'),
+            btn: document.getElementById('snap'),
+            font:'14px microsoft yahei',
+            style:'rgba(255,255,255,0.5)',
+            text:'holly hello nvshen',
+            height:240,
+            width:320,
+            draw_pic: function () {
+                var self = this;
+                var context = self.canvas.getContext('2d');
+                context.drawImage(self.video,0,0,self.width,self.height);
+                context.font = self.font;
+                context.fillStyle = self.style;
+                context.fillText(self.text,self.width-140,self.height-10);
+                alert(context);
+            },
+            bind: function () {
+                var self = this;
+                self.btn.addEventListener('click',function () {
+                    self.draw_pic();
+                });
+            },
+            init: function () {
+                var video = this.video;
+                alert(navigator.mediaDevices);
+                if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                    navigator.mediaDevices.getUserMedia({video:true}).then(function (stream) {
+                        video.src = window.URL.createObjectURL(stream);
+                        video.play();
+                    });
+                }
+                this.bind();
+            }
+        };
+        camera.init();
+    </script>
+</body>
+</html>

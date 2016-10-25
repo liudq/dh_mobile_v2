@@ -1,0 +1,30 @@
+body{background: #f5f4ef;}
+.dhAppTitle{text-align: center;padding-top: 25px;}
+.dhAppTitle h1{color:#39362b;font-size: 18px; font-family: SFUIText Medium,Helvetica,Arial,sans-serif}
+.dhAppTitle p{color:#68655e;font-size: 14px; font-family: SFUIText Regular,Helvetica,Arial,sans-serif}
+.dhAppTitle img{margin-top: 20px;margin-bottom: 20px;}
+.androidDownload, .iosDownload{text-align: center;margin-bottom: 47px;}
+.androidDownload a, .iosDownload a{display: inline-block;width: 161px;height: 50px; }
+.androidDownload a.google{background: url('http://css.dhresource.com/mobile_v2/directFlowToApp/image/google-play.png');background-size:161px 50px;margin-right: 15px; }
+.androidDownload a.site{background: url('http://css.dhresource.com/mobile_v2/directFlowToApp/image/site-download.png');background-size:161px 50px }
+.iosDownload a{background: url('http://css.dhresource.com/mobile_v2/directFlowToApp/image/ios-download.png');background-size:161px 50px }
+.continueVisit {text-align: center;margin-bottom: 29px;}
+.continueVisit a{color: #0077cc;font-size: 14px; font-family: Myriad Pro,Helvetica,Arial,sans-serif}
+.dhAppDes .enjoy{text-align:center;font-weight: bold; color: #39362b;font-size: 18px;font-family: SFUIText Bold,Myriad Pro,Helvetica,Arial,sans-serif;}
+.dhAppDes .arrow{height: 47px;line-height: 47px;background: url('http://css.dhresource.com/mobile_v2/directFlowToApp/image/disList.png') center -143px no-repeat;background-size: 40px 180px;}
+.desList {position: relative;}
+.desList li{border-top: 1px solid #ebeae4;padding-top: 14px;padding-bottom: 14px;}
+.desList li.im{border-bottom: 1px solid #ebeae4;margin-bottom: 25px;}
+.desList li span {padding-left:45px;display: inline-block;width:168px; height:29px;margin:0 auto;line-height:29px;position: relative;left: 50%;margin-left: -84px; background: url('http://css.dhresource.com/mobile_v2/directFlowToApp/image/disList.png') 0 0 no-repeat;background-size: 40px 180px;color: #68655e;font-size: 14px;font-family: SFUIText Medium,Myriad Pro,Helvetica,Arial,sans-serif;}
+.desList li.sm span{background-position: 0 0}
+.desList li.es span{background-position: 0 -30px}
+.desList li.sp span{background-position: 0 -60px}
+.desList li.et span{background-position: 0 -90px}
+.desList li.im span{background-position: 0 -120px;}
+
+@media (max-width:320px ) {
+	.androidDownload a, .iosDownload a{width: 135px;height: 42px; }
+	.androidDownload a.google{background-size:135px 42px;margin-right: 10px; }
+	.androidDownload a.site{background-size:135px 42px }
+	.iosDownload a{background-size:135px 42px }
+}

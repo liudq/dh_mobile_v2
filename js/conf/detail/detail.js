@@ -1,0 +1,9 @@
+//最终页依赖的公用业务功能模板
+$IMPORT('src/common/tpl/recommend/youMyLikeTpl.js');
+$IMPORT('src/common/tpl/recommend/youViewedTpl.js');
+//最终页依赖的公用业务功能模块
+$IMPORT('src/common/recommend/youMyLike.js');
+$IMPORT('src/common/recommend/youViewed.js');
+//最终页功能模块
+$IMPORT('src/detail/index.js');
+$IMPORT('src/detail/main.js');

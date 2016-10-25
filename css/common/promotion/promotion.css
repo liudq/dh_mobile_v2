@@ -1,0 +1,4 @@
+.mobile-deals{display:inline-block;vertical-align:top;width:13px;height:16px;background:url(http://css.dhresource.com/mobile_v2/common/image/promotion/exclusiveprice.png) no-repeat -3px 0;background-size:16px 16px;}
+@media screen and (min-device-width:414px){
+.mobile-deals{width:21px;height:21px;background:url(http://css.dhresource.com/mobile_v2/common/image/promotion/exclusiveprice3.png) no-repeat -3px 0;background-size:21px 21px;}
+}

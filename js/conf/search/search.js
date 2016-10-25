@@ -1,0 +1,9 @@
+//搜索列表依赖的公用业务功能模板
+$IMPORT('src/common/tpl/recommend/youMyLikeTpl.js');
+$IMPORT('src/common/tpl/recommend/youViewedTpl.js');
+//搜索列表依赖的公用业务功能模块
+$IMPORT('src/common/recommend/youMyLike.js');
+$IMPORT('src/common/recommend/youViewed.js');
+//搜索列表功能模块
+$IMPORT('src/search/index.js');
+$IMPORT('src/search/main.js');

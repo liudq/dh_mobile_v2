@@ -1,0 +1,238 @@
+/*reset start*/
+article,aside,details,figcaption,figure,footer,header,menu,hgroup,nav,section{display:block}
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,label,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+fieldset,img{border:0}
+img{display:block}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}
+body{color:#444;font:12px/18px Arial,Helvetica,sans-serif;background-color:#fff}
+input,textarea,select,button{font:100% Arial,Helvetica,sans-serif;}
+ol,ul{list-style:none;}
+a{text-decoration:none;color:#004b91}
+.clearfix:after {clear:both;font-size:0;height:0;display:block;visibility:hidden;content:'';line-height:0}
+.dhm-lt{float:left}
+.dhm-rt{float:right}
+.dhm-hide{display:none}
+
+
+.eleven-ico{display:inline-block;height:11px;line-height:11px;font-size:11px;position:relative;top:-1px;padding:1px 2px;margin-right:2px;background:#db4b4b;color:#fff;font-weight: bold;border-radius: 3px;}
+/*reset end*/
+.eleven-ico{display:inline-block;height:11px;line-height:11px;font-size:11px;position:relative;top:-1px;padding:1px 2px;margin-right:2px;background:#db4b4b;color:#fff;font-weight: bold;border-radius: 3px;}
+.gary{color:#c3c3c3;}
+.blue{color:#3fabca;}
+/*dhm common start*/
+.dhm-hide{display:none;}
+.dhm-htmlOverflow, .dhm-htmlOverflow body{overflow:hidden; height:100%;}
+/*top download*/
+.top-download { position:relative; padding:5px 0; height:53px; background-color:#68655e; }
+.top-download .downClose { position:absolute; left:0; top:6px; width:50px; height:50px; background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151012) no-repeat 15px -373px; background-size:350px auto; }
+.downCentent { display:block; position:relative; margin:0 0 0 50px; font-size:18px; color:#fff; z-index:2; }
+.down-logo { display:inline-block; width:53px; height:53px; background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151202) no-repeat 0 -426px;background-size:350px auto;}
+.down-text { position:absolute; left:62px; top:6px; width:160px; font-size:16px; line-height:20px; }
+.down-but { position:absolute; right:15px; top:11px; width:58px; padding-left:24px; height:40px; line-height:40px; font-size:18px; text-align:center; background:#ffcb05 url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151012) no-repeat 12px -664px; background-size:350px auto; border-radius:5px; cursor:pointer; }
+/*top language select*/
+.shadow{display:none;width:100%;height:100%;position:fixed;top:0;left:0;z-index:999;zoom:1;background:#999;background-size:48px 48px;opacity:.5}
+.language{display:none;position:absolute;width:280px;top:50px;left:50%;margin-left:-140px;background:#fff;z-index:1000}
+.language li{height:50px;line-height:50px;padding:0 15px;font-size:15px;color:#464646;border-bottom:1px solid #d7d7d7}
+.language li.tit{text-align:center}
+.language li.active{background:url('data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUDAwUKBwYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wgARCAAgAC4DAREAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAACAABBAUGCf/EABoBAQEAAwEBAAAAAAAAAAAAAAAGAgMEBQH/2gAMAwEAAhADEAAAAPfwhCHO6ucgT0Q4Ka/shyfPxDvw5N3UlwBpmDdVDbaTDSO/Ek3fR3NmLhqBc7EZ33J30l1ZD//EACoQAAICAgIBAgUEAwAAAAAAAAECAwUEBwYRCAAJEBMxUpEhIzJBEhUg/9oACAEBAAE/AP8Ajau1dc6O1xc7c25zLBoON8fwXzLi4s5xHDjQoCSzE/gAfqSQB61ZV+aXuOczn8jLnY3MdH6iNa0GseK1khxLi8hkkVv9vZKCHhMix/s4xI+XG/bhnkIiVg47U/Hde69YeO+sLjcO4eX4dJx6jw3yM/PzJlRVVQWIBYgE9A/gkkAE+tKaV2h7pOz6rzA8weJ5lHp+jzEzdP6ftIWR7Z1YNDeW8LAHrsB4MVx9ssoBEccSoEUIqjoeuSvs32atmZvOkzLflXi5yq3M90mVO+Vm6yzZ5O2mLuS0lW7n+bEnG/i5+T08PFOVcd5xx3D5bxK5x7GsscdZsLNxXDRzRt9CD63XuvWHjvrC43DuHl+HSceo8N8jPz8yZUVVUFiAWIBPQP4JJABPrSmlNn+6VtCq8wPMHieZR6fo8xM7T+n7WFke2dWDQ3lvC39dgPj4jj7ZZQGEcUSIqKEUdAfQD4XFNU8jqMqgv6vHzcHNx3gzMPKhEkU8TgqyOrdhlIJBB/Qg+jQbJ9mHYy5nCqm45T4s8mtEjlpsOKTLztZZkzhUESDt5at2IVf7xiQh/Z/waDSmldoe6Vs+q8wfMHieZR6fo8xM7T+n7SFke2dWDQ3lvCwB67AeDEcfbLKAwjjiRFRQijoD6AfH/8QALBEAAQEGBAQGAwAAAAAAAAAAAQMCBBEhMUEABSNCEBQyURITImGRwSCy8P/aAAgBAgEBPwD8FVk0Ey22YAfwAFSSaCpOCg/5y15nmNJMbfCZn4Mx3NKeCXrb4vDyk6pFtQy+SSaAC5Nhh2dlc1V5l56NrNofYO5rfQac1MBNXI1NIRRMoC3aHv8AvQ6k1EVU10gomYgzBGHh5SdUi2oZfJJNABcmww7O6uarcy8j0bRaH2DuO6g0+vg2wwowWWhEGRBoRhsK5IsVBNFozjY94m/ueuh1JqOzurmyvMPPRtZsR9g3O6g05qcf/8QALREBAAEDAgQEBAcAAAAAAAAAAQIDBBEhMQAGIzIFEBRDEhMgQSJCU2FigZL/2gAIAQMBAT8A+i5uqNnQatVwH9q7ABqq6AZVQOJ2njHNMvnFadvROxhJF/zIJDuyci4KWYDUq+d9fW/h1u1qzpsBqq7RibqugHFjY3PMdz66+MUjshnIjvrsid0vc7Y9HLXDgt7jlC4G3iytZIfCbjsY/n9j9XZ62GtbXFC7oRrUJEoyMibJxfX1v4dbtas6bAaqu0Ym6roBxYWNzzHc+uvjFI7IZyI767IndL3O2PRy1zTyq0qVelKnUiSjIwiZEdxOKpc8p3TWisrab+LLqL98v5/3Xq7S62GtY2NzzHc+uvjFI7IZyI767IndL3O2PRy1zTz/AP/Z') no-repeat 96% 50%;background-size:23px 16px}
+.language a{display:block;color:#464646}
+.language .j-languageCancel{height:40px;line-height:40px;margin:10px 15px;text-align:center;font-size:15px;color:#000;border:1px solid #c6c6c6;border-radius:3px;background:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#f0f0f0));background:-moz-linear-gradient(top,#fff,#f0f0f0);background:-o-linear-gradient(top,#fff,#f0f0f0)}
+/*header*/
+header{text-align:center;height:45px;padding:5px 15px 0;background-color:#fff;border-bottom:1px solid #ddd}
+header span{line-height:45px;padding:10px;font-size:18px;color:#464646;background:url('data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/4QOLaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMUIwOEJDMzRDRDA4MjI0MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODNDOTAwRkNBNjA4MTFFNDgxQjBGREVDMERFRUQ1ODAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODNDOTAwRkJBNjA4MTFFNDgxQjBGREVDMERFRUQ1ODAiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozZTFjMmRiMS0zMzBiLTQxMDQtYjJhZC05YjBmNGYwOTAxMzEiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDpmNGRmNmU5MC1kZDMzLTExNzctOWRkYS1iMWZjMjIyY2FmYTQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgICAgICAgICAgIDAwMDAwMDAwMDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wAARCAALABEDAREAAhEBAxEB/8QAagAAAwEAAAAAAAAAAAAAAAAABgcICgEBAAAAAAAAAAAAAAAAAAAAABAAAAMFBgIJBQAAAAAAAAAAAgMEARIFBgcAERMUFRYiIyFBMjMkJRcIGDWV1lcJEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDZlJVQJyodOkOo7XKOrJklmaIiYlo3WyKusFGzzxCMJp5URWEICEc7JgtdQrBOFRYtjvQex0YDFTatT3W2f1VAPbjGT4IngKwkNZ62oGBGmktIUoAFTKcmKhciITme1jQHDLa1iS5oGNYYwwZAVJsyb/2xNf2SRvxewKz3i5f46VIzfp9l9JDi+pWqaC7jl/T9F803XfdpGDxahhdV9gBf5/ZX40ynlNh4WdiT2xdY729Pi7v1vxe9378+7yOxh8F1gtawf//Z') no-repeat 100% 50%;background-size:8.5px 5.5px}
+.logo{display:block;width:100px;height:45px;float:left;margin:0;text-indent:-2000px;background:url(http://css.dhresource.com/mobile/common/image/logo.png) no-repeat 0 10px;background-size:100px 25px}
+.logo a:hover,.logo a:focus{text-decoration:none}
+.logo-info{float:right;height:45px;overflow:hidden}
+.logo-info a{display:block;float:left;width:40px;height:40px;margin-left:6px;padding-top:7px;color:#ee7711;font-weight:bold;font-size:14px;text-align:center}
+.logo-info .t-login{background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAuCAYAAACcYs/JAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAzFJREFUeNrsmktoU0EUhielShENIgpVutAipQuxoqKCoFmISBciIi0+cFEwCgWRBJOYhSsJiSQB8QFmoSC48IXVheILVKxQiVJUREWKC9FYWylRStBy43/IFGLANMmdM7lTPPAxKUnmTv/MOXPmzLjy+bz4b0I02u0glUrV8rWlYD9oBWOgHzwEQ9V25PV6nSFEFeYGm0A32F7y7B7ZvgdXwXnwQeeMaLDbAblWBewBX8A10AUa//G5NhAG78Al0DJV344RYgpbB26Ds2BWlePqAq+Ax4gYUeZXIf9/UKUApTYX3ACruF2Fc0bssylCcWw5afKMWK1wnFvACjBoohDNisfazSlEg5NnW4l5THUN1SK3myqEaqMVpAnkTHONCYY+Z5o4I3KGiMsuxLgBAViLEMMM4/1lohAZxWMd5wqU3MGyRXF/IyYun8vAVgZht4E+k4RoYpq9btNmBHedwxghfjKNd8w0Iaj2mFU8lS3wzDQhKAN8AjoVjvUFw5KsJY94pFiI65wxgrOKfavCCnel9Dm6il1m4K/BGQUCWOAleGOqEEQv8NsUIgo6uM81dBRm7tp8xFeT84hiy9p8xPB0ESIjd461nHHQMvxYhxA6zj4nwIUa48MpkNFx9qljRpwAB2rs/hAYBcdMdw3aOvfYfMQRcFmm7UYKQVvxi8L++Sd9nw6CN3IGTq4YQfca7oENirLKdtAPljs2RliWVfwnHcIcBIfBbMU/Gl03GgDHQUworpKrco0OQJeZ9jIIUOpuR2XwPQ3OgU8qOnbVOr3C4XAbmh1gpyjUKOthltzu35H5RjoSieTYhQiFQovQ7JL//EoHVtzo3CMN7tO2PRqNDioVIhgMeqTfbxZ6b+LZNapo9cZisbSSVQNi3QSdZW7DOZU1VBcJBAILlQRLrAxL0OyWMWG9cH6VmmLHU3CFcpl4PD6qPFj6/f55aNaKwtVBihN0gWNxHV2GNmYfwVvwXC6xA4lE4ruWVWPSfD4fNTNE4Tphq0yrKaguAPNlbjFHFCrabvm6OO9wTXqg+Ltc/0Nu4bPyNb1Hx37fwGe5bNKV5aFkMvm7bsvndLM/AgwA4lS+StojPnwAAAAASUVORK5CYII=') no-repeat 4px 11px;background-size:33px 23px}
+.logo-info .t-search{background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAqCAYAAADMKGkhAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABGRJREFUeNrMmX9IU1EUxzcnwmBgCIEhGIZRFIJQFEZRBIVRGEYhGEUiKE6TnCZKISTIRjrZcD9c/wQJYQSFkCBJkhBFUiRKwkiIBCGIBgNBGKh9D5wXz8d9ez/2Xnngg2/33nc9O55z7zlHZyKRcFggRaCMn3+CVb0vNjU1mfqF+VtbW2beOweqQa1MYaXQF5gCL8E0WHdYKHkG1hYAH/gNXvNzWZb1xeAWmOB3gqDQMsXJ4jqoB99AEBTpfEeOG/jAD3AXuKQ5s6LlKmTlEGixyFBk8YfgLLgOUnYoTgH3ApzWuddn2fMRjbUUHx/BBbBspY+TpV9lUToNnoIrYBdwgqMy6PMecAfMquxRDt7GYrHdVvp4DFQJxjdAHOwD18FLkFbZ4ycIgzPgEvguWFMCJqLRaIEVijeBRhVFTgAvSBkMzklwGEwJ5shAwVwV9wC/YPMVcArMmThRJNbBZf4SyrmWkZGRCkPBubm5Kf98j4NSLhvgmtkgUkgG3AQLoEQ27gJ+cMmMxel8bhNYoz9HSyshN2sWjF8MhUJVZhSvZ1eRb0aBN2yh0nKfFxmj0YziNYKNHoE1GxQnIoKxWqOKF4CTgo3GbFLawUfphmKsKBgMHjISnHQZuAWXzKLDPlnj2/aYYpxu3SW9V365YG7JYb/MCRQvN5KrFKrk03aLqODwGFHcLZhL/QPF04IxtxEfT6skWnaLW+eXUbW4yC3K/oHixTrdR1XxpGDuCFtk3UbFKwVjy0ZchSz+XWFlUvoqGLNJaQrCk4K8aM7ozSlKOVtsvIDquRaVj33o6+tLGbE4yTNBbUlJTz1XO1Zbu08w/sxMWjvLN5myXgzx3KqFit9VpLXS8TtmRnGSTqoDFWt2cx/lDPhlgdI1KtbuHxgYSJtVnCw7CS4q1lHi84aL41wKCqrux1VOkniuNSfVlL8E4xXgC7hhIhCpAdQDXgkCMgMa/H5/RlKqp6dHM1/JI4srWAFXQEYw5wFPwAKoAy7BGjkuXvcV+FXWewOBwDtJoe7ublq/gJ9Xsynu7OzsVJu7AR5zPZgtNaWG5gzXk/PsVgXcrarW6BcGhoaGeqUPXV1dpfjxieOKpBfzAT0+LpcxDsbnWTI2D3dsaw36+gY3iyLSgM/nc7P/yxtEfozT7dowPDy8bqTpSZfScZC08OKh+DkvlW4kHR0dFAPjKk2oOvAWa7blNc729na9LWYqZB8oLGK04gmDQUUG6OG/arXG+yvUvgiHw4tG2swZWeutGywZsPAqCID94L6gZUeNomUd+5SC9zB0lZaPq1ltkCnlpmglB6CU6SXZovN8LySzbRiJRMjfb7e1tSX5lnZppAp0YBx0er1ex/+UaDT697m1tfUsu02Rxmt782zM/nSh+BIzfBhouU5qRylOEovFlln5GbUuGNas7TjFSeLxeIqPzAAfDNL6aUoPcvl3oe0yOjpKQdvb3NxMydcBOg4TicTfQM937HCBsit8hm+TPwIMAMwJDF5kS0MYAAAAAElFTkSuQmCC') no-repeat 4px 13px;background-size:23px 21px}
+.logo-info .msg-num{background:url('data:image/png;base64,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') no-repeat 3px 11px;background-size:33px 23px}
+.logo-info .cart-num{width:32px;padding:8px 0 0 6px;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAuCAYAAACCq/96AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA7pJREFUeNrsm2FkW1EUx2+aKSUzRimlbEoZrU7ZjBFGZrMZo/vSKWVkOp1OZ3QyoayU6LSUEYuNaqmxUcq0Npv1U+xDGaOMUmq1Wm1WSmmy/5HziO7e1/fu3n15b8nh15e+m3eT/Pt/5957bhopFouiFs4jUhOsJlhNsJpgYRcsm83W4/EE6AExEHVw7To4CfbDLEAymXT1/CP0A6I9wKHf5Wu1sMDT1eSwOj6e0bx+2KEb/5uwHJbH4ZrG9af4utfVJlgGh2bQyznMTaSqSbA6FmwP3AFHQUTBTRogJHSBhKIt8OjmMCcxB9ZsXFZVDnPCPhhTtMXB+QA76Rh4Bn6AT+Axn9POYU6f/wKkOd/JRsyrATQFzTEXy2YCx0EXuA7Ogh2Tgu2BJ2Bc0nYFdIKVgAmWUkybmrRHyUKh4OaaLLupUfHmbgRILHLTkKIt49ZdOg4T/CJTYETSRjZvA6sBEWxIMU3a5s9gNOmXMwl2JOejtMwKSKJvBIOKtoz1/v0S7BeYUrT1gpYACDYMYpLz2+Xv3S/BLJftSs7Xg6EKi9UE+g9zl/a0wmXSt2IT5MCArGoCRsFWhXIXDUoNXuYuLxxm/bX2JOcbKuiyZqfu8vuWJNbBrKKt35pN+0ya04Jt7qqUYIKXS/uK5ciAz2LRYNPn1F1+5zArVrm80y1pGwSTOhNEzUjzUsjz3OWlw4hRm7nQLZ/c1erWXX4svlVB68cFXk8eDNoveMrrUNPuipp0l1e3pBVjCsGsSm7OoFhtvCHj2ZrRtMMolsEHEFfMi6g0ZGpLbsQPd3ntMMGTVZlgrTwozBkQq10x4HjuLhOCLYG8ov6UMiSYb+4yIZiVy14pnODn9xI8d5cpwWhO9kWU9iwrFUbc5XXSP5jLZvjxV/AGfOZiHjntkm6JmGOjrM9d7pNG6BMm3WXKYYJzVR+PjLOK5/Tw3oAb4egLMPeEfOP4rijtwqdNucukYDR9uHjIc0jId6K0o9PuoE8aTC7z7aaKeUaETTA3NbUOEaLwai1pRztYBD/Bd/CSa1b/2udb8Bt8AzNcZTX+VQHTDovzLVdeQejm8x3sMLdxDrwv6zPG+TAhShuza2F22ISimEdVjHHNPp/b9JkOs8NoE7XTpj2h0WczL7RVccF0DjM1D3M6kvpxTWgE27ZZVwqun+mMqis2zl0Ku8Puc9JvkHzwh5p93gYfxd+laJr9Pwr7tGIZnAbzYAtsgGnQwb/r9Jnn6xd4J4h2rnL8Opumk37tHxtcxh8BBgD+jOHyRle2ZAAAAABJRU5ErkJggg==') no-repeat 3px 12px;background-size:38px 23px}
+/*footer*/
+.footer{padding:20px 0;text-align:center;background-color:#f6f6f6;border-top:1px solid #e6e6e6}
+.footer p{line-height:20px;font-size:9px;color:#888;}
+.ft-nav{font-size:10px;padding-top:12px;color:#aaa;font-weight:bold;}
+.ft-nav a{color:#666;font-weight:normal;padding:0 1px;}
+.footer .ft-join-login{font-size:14px;color:#333;}
+.footer .ft-join-login a{color:#039;font-weight:bold;}
+
+/*search*/
+.dhm-search{display:none;min-width:300px;padding:0 0 10px;background:-webkit-gradient(linear,0 0, 0 100%,from(#f5f5f5),to(#ebebeb));background:-moz-linear-gradient(top,#f5f5f5,#ebebeb);background:-o-linear-gradient(top,#f5f5f5,#ebebeb)}
+.dhm-search-active{padding:10px 0}
+.dhm-search-active .dhm-search-result{display:block}
+.dhm-search-active .search-cont{margin-right:60px}
+.dhm-search .search-cont{position:relative;height:40px;padding:0 10px}
+.dhm-search .search-cl-btn{float:right;width:40px;height:40px;line-height:40px;margin-right:20px;font-size:14px;color:#333}
+.dhm-search .search-text{margin-right:60px}
+.dhm-search input{width:100%;height:38px;text-indent:10px;background:#fff;-webkit-appearance:none;border:1px solid #cecece;border-radius:3px}
+.dhm-search .search-btn{float:right;text-indent:0;width:50px;height:40px;font-size:15px;text-align:center;font-weight:bold;border:1px solid #cecece;border-radius:3px;background:-webkit-gradient(linear,0 0, 0 100%,from(#ffdf00),to(#ffd966));background:-moz-linear-gradient(top,#ffdf00,#ffd966);background:-o-linear-gradient(top,#ffdf00,#ffd966);color:#fff}
+.dhm-search .del-btn{position:absolute;right:60px;z-index:99;top:0;width:35px;height:40px;background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAYAAACoPemuAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RkYyRDhGMzU3QjMzMTFFMkFFNjNBOUJFQjg5NDJBMTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkYyRDhGMzY3QjMzMTFFMkFFNjNBOUJFQjg5NDJBMTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGRjJEOEYzMzdCMzMxMUUyQUU2M0E5QkVCODk0MkExMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGRjJEOEYzNDdCMzMxMUUyQUU2M0E5QkVCODk0MkExMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuPQ6eIAAAKKSURBVHjazJg7T1RREMfv4hbECLuNJRhtAKU1RBQLgw9iaCHBylhYiHwXFAop+AC0xBByDQ0oMYbOx26jK3Rss6tmtdks/yFzN8PN3XvmnPvASX5hl3vOmf+ex9yZU6jVat7/aEXHflfBQ3AHjIErYICf/QY/wTewB7bBD1sHBYsZuwDmwCK4RX2V/TpgH6yADdBOU9g0eA1GE65QBbwE70wN+wzP+8Eb4KcgyuMxfB6z33XGLoO34GZG+/sTeAzqNsJI1C4YyfjwVcFUlLiopbwINnMQ5bGPTfZpFLYMJnIMWRPsM3Ypp3lz9rRyuXz6t9FoqLxatL8vT2sxNHuvTE5KpVL3u8mZZXsKR+NBnJNLOc9RXOWEPgezkUZ7DiVzUXvshdaJyZlte2GLYWH07pt02blhZ71EKY1eddeksEdx7z7aG81m0yjOJIrGMOyzAicHXWG3TT9FIy6hKE9qCYTd0PQwiUtBFNl1KWxI28tWnKUoj3O7rrABm55acQ6iyC5p0p5zsz6RDqtNGxIUcSvK/khhR2mLSiDuUAr7moUoR3FfpLC9pKJoo2uCsMLey+xim6uZgqsoefp6tQ3+H3NSO6ylO2PfwQeX0xMW5RqE2fZZy5lwsWobt3rFKdv2wlaiMlgqaD/HlWlySTXB07J9RSaKMoNtczHqx82cNnt1aL8kq/So8m0dPM050JPPZ6a6kkqpnRwrpY/gHmiZyjdqMMvFaNZWZV8t7d0FVcZ3wUGGog7YR932UuWYy/e1DESt8d3asettz1/wHDxIaWmrPBaN+S/JNVRgPqffCxydOw4R/QmP4ad5cRc2KvdmeDkoIA+DQX72i1OXCicHW17GV5252okAAwANPQpe2QfViQAAAABJRU5ErkJggg==') no-repeat 5px center;background-size:19px 19px}
+.dhm-search-result{padding:10px;font-size:14px;color:#000}
+.dhm-search-result ul{padding:0 10px;border-top:1px solid #cecece;webkit-box-shadow:inset 0 3px 5px rgba(100,100,100,0.15);-moz-box-shadow:inset 0 3px 5px rgba(100,100,100,0.15);-o-box-shadow:inset 0 3px 5px rgba(100,100,100,0.15);box-shadow:inset 0 3px 5px rgba(100,100,100,0.15);background:#fff}
+.dhm-search-result li{height:40px;line-height:40px;text-indent:8px;border-bottom:1px solid #eee}
+.search-hot li{padding-left:23px}
+.search-hot .tit{padding-left:0;height:40px;line-height:40px;color:#333;font-weight:bold;font-size:16px;}
+.search-hot .icon{position:relative;background:url(http://css.dhresource.com/mobile/common/image/icon-hot.png) no-repeat right center;background-size:32px 14px}
+.search-hot .icon span{text-align:center;text-indent:0;position:absolute;left:8px;top:12px;font-size:14px;width:18px;height:17px;line-height:17px;color:#fff;background:-webkit-gradient(linear,0 0, 0 100%,from(#ffd820),to(#ffbd3e));background:-moz-linear-gradient(top,#ffd820,#ffbd3e);background:-o-linear-gradient(top,#ffd820,#ffbd3e)}
+.dhm-search-result .close{text-align:center;padding:20px;background:#fff}
+.dhm-search-result .close a{display:inline-block;width:138px;height:40px;line-height:40px;border:1px solid #999;border-radius:2px;color:#333;font-size:15px;font-weight:bold;text-align:center;background:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#f0f0f0));background:-moz-linear-gradient(top,#fff,#f0f0f0);background:-o-linear-gradient(top,#fff,#f0f0f0)}
+.opacity-layer{position:fixed;top:50%;left:50%;z-index:-2;width:280px;height:56px;margin-top:-28px;margin-left:-140px;line-height:56px;background-color:rgba(51,51,51,0.9);border-radius:2px;color:#fff;font-size:16px;text-align:center;font-weight:bold;opacity:0}
+
+/*seller message*/
+.base-store{background: #fffcee;position: relative;}
+.detail-store{height: 78px;padding: 10px;}
+.message-entrance{text-align:center;height:43px;padding: 9px 0 16px 0px;border-left: 1px solid #ddd;position: absolute;right: 0;top: 15px}
+.message-entrance a{color:#68655e;font-size:10px;width:85px;display:inline-block;}
+.message-entrance .chat-icon{display:block;width:24px;height: 24px;margin:0 auto;background:url("http://css.dhresource.com/mobile_v2/storeShop/image/store.png") no-repeat 0 -112.5px;background-size: 125px 150px;}
+.message-entrance a span{display: block;width: 37px;height: 20px;margin: 0 auto;text-align: center;font-family: Arial, HelveticaNeuelTPro Md;color: #68655e;font-size: 10px}
+.store-promotion{padding: 0 10px;}
+.store-promotion a{position:relative;display: inline-block;padding-bottom:10px;margin-top:1px;width:100%;text-align:center;color: #fff;height: 50px;line-height:50px;font-size: 12px;}
+/*.store-promotion .allStore{background-position: 0 -213.5px;margin-bottom: 10px}*/
+.store-promotion  a span{width:31px;height:49px;line-height:49px;background: url(http://css.dhresource.com/mobile_v2/storeShop/image/storebg.png) no-repeat 0 0;background-size: 97px auto;}
+.store-promotion a.limits {margin-bottom: 5px;}
+.store-promotion  a.limits span{background-position:0 -110px;}
+.store-promotion  a .storeEnlf{position: absolute;left: 0;top:0;}
+.store-promotion  a .midTxt{display: block;margin: 0 15px 0 28px;background: #090;width:auto;}
+.store-promotion  a.limits .midTxt{background: #f3b202;}
+.store-promotion  a .midTxt var{display: inline-block;line-height: 16px;padding: 8px 0;text-indent:8px;}
+.store-promotion  a .storeEnRi{position: absolute;width:15px;right:0;top:0;background-position: -15px -54px;}
+.store-promotion  a.limits .storeEnRi{right:0;top:0;background-position: -16px -166px;}
+.detail-store .nlsy{}
+.detail-store .store-name{font-weight:bold;font-size: 15px;color: #39362b;margin-bottom: 7px;}
+.detail-store .levelP{display:inline-block;width:47px;height:16px;vertical-align:middle;background:url("http://css.dhresource.com/mobile_v2/storeShop/image/store.png") no-repeat 0 0;background-size: 125px 150px;}
+.detail-store .levelT{display:inline-block;width:47px;height:16px;vertical-align:middle;background:url("http://css.dhresource.com/mobile_v2/storeShop/image/store.png") no-repeat 0 -25px;background-size: 125px 150px;}
+.detail-store .hsponsor{display:inline-block;width:45px;height:14px;vertical-align:middle;margin-left:5px;margin-right:5px;background:url("http://css.dhresource.com/mobile_v2/storeShop/image/store.png") no-repeat 0 -50px;background-size: 125px 150px;}
+.detail-store .jsponsor{display:inline-block;width:45px;height:14px;vertical-align:middle;margin-left:5px;margin-right:5px;background:url("http://css.dhresource.com/mobile_v2/storeShop/image/store.png") no-repeat 0 -91px;background-size: 125px 150px;}
+.detail-store .lsponsor{display:inline-block;width:45px;height:14px;vertical-align:middle;margin-left:5px;margin-right:5px;background:url("http://css.dhresource.com/mobile_v2/storeShop/image/store.png") no-repeat 0 -70.5px;background-size: 125px 150px;}
+.detail-store .year{color:#ff6633;font-weight: bold; }
+.detail-store .year sup{font-size: 10px; }
+.detail-store .ft{color: #a6a398;margin-top: 11px;}
+.detail-store .ft b{color: #f3b202}
+
+/*store coupon*/
+.j-store-coupons{background: #fffcee;display: none;}
+.j-store-coupons .dCouponList{padding: 15px 0;margin:0 10px;border-top: 1px solid #ebeae4;}
+.j-store-coupons .j-back-left{position: absolute;  z-index: 2;  width: 50px;  height: 45px;  top: 0px;  right: 0px;  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAmCAMAAAAY0vCaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OEZERjlCMENERjlCMTFFNUIwNzdCRjMwODVDOUE2NjMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OEZERjlCMERERjlCMTFFNUIwNzdCRjMwODVDOUE2NjMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4RkRGOUIwQURGOUIxMUU1QjA3N0JGMzA4NUM5QTY2MyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4RkRGOUIwQkRGOUIxMUU1QjA3N0JGMzA4NUM5QTY2MyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PifET9UAAACcUExURf39/ZGPiqyqp8HAvXl3cObl5N7d3NXU0pmXkpCNiN7e3P7+/mlmX2xpYt/e3fv7+4mGgeDg3oeFf5OQi3Rxa727uODf3vHx8MTDwOPj4Z6dmPr6+vPz8oB9d3BtZ/39/Ofn5tzb2uzs629sZsbEwvX19J2bl/j49+vq6sXEwYKAenh1b+3t7I6Mh6mno21qY+/v7np4cmhlXv///90cIoMAAAA0dFJOU////////////////////////////////////////////////////////////////////wBLVyJlAAAA20lEQVR42mzT5xaCMAwF4CggKCKIe++9m/d/NxEhSUvz80vhcEMKaNR7+nLHIYLBjbbKKlkZ3lD/GoCV1Q2srD7SW8TqAlbuhewdwcDfKbiWIdi59KHBhVf4790K527hn7csnPmAuclpYGNlhIeVEdyS27EcLRzpfF3zO7/fkY6TiBq+dPT4CU86+uTRSDo61OifpGOdGotYOgbUSEE6pNQIpOPM1fPRTA47LR/PaqTlEzMU+dbannO+fqjtLefb6ntO+c7GvSjyLcFwSPJf51XuF+yv7nOO+BVgANCinPMJmPnCAAAAAElFTkSuQmCC') no-repeat 15px 15px;  background-size: 12px 12px;}
+.j-store-coupons .store-arrow-right{background: rgba(0, 0, 0, 0) url("http://css.dhresource.com/mobile_v2/storeShop/image/pronarrto_03.png") no-repeat scroll 100% 50% / 9.5px 16px}
+.j-store-coupons .coupon-title{font-size: 16px;color: #39362b;margin-bottom: 15px;}
+.j-store-coupons .coupons{border-radius: 3px;width: auto;  overflow-x: auto;  overflow-y: hidden;  white-space: nowrap;  -webkit-overflow-scrolling: touch;}
+.j-store-coupons .coupons a{display: inline-block;vertical-align: top;/*padding: 5px;*/background: #009900;margin-right:10px;text-align: center;border-radius:3px 3px 0 0;}
+.j-store-coupons .coupons a .appCoupon{display:block;color: #fff;padding: 8px 0 4px 0}
+.j-store-coupons .coupons a .c-discount{display:block;padding:5px;background: #009900;color:#b6df9d;font-size:11px;/*border: 1px solid #009900;*/}
+.j-store-coupons .coupons a.received .c-discount,.j-store-coupons .coupons a.outOf .c-discount{background: #ebeae4;color:#cbc8bb;border: 1px solid #ebeae4;}
+.j-store-coupons .coupons a .c-discount b{font-size: 17px;color: #fff;}
+.j-store-coupons .coupons a.received .c-discount b,.j-store-coupons .coupons a.outOf .c-discount b{color: #cbc8bb;}
+.j-store-coupons .coupons a .c-state{background:#fff;display:block;padding:2px 5px;color:#2e7c2e;border: 1px dashed #8ca96e;border-radius:0 0 3px 3px;border-top: none;}
+.j-store-coupons .coupons a.received .c-state,.j-store-coupons .coupons a.outOf .c-state{color: #a6a398;border: 1px dashed #ebeae4;}/*store coupons layer*/
+.couponLayer{position:fixed;top:0;left:0;width:100%;height:100%;padding-bottom:40px;z-index:100;-webkit-transform:translateX(100%) translate3d(0px, 0px, 0px);-moz-transform:translateX(100%) translate3d(0px, 0px, 0px);transform:translateX(100%) translate3d(0px, 0px, 0px);min-width:290px;border-top:1px solid #b7b8b7;background:-webkit-gradient(linear,0 0, 0 100%,from(#fff),to(#f5f5f5));background:-moz-linear-gradient(top,#fff,#f5f5f5);background:-o-linear-gradient(top,#fff,#f5f5f5)}
+.couponLayer nav{position:relative;height:45px;line-height:45px;min-width:290px;border-bottom:1px solid #b7b8b7;background:#fff;}
+.couponLayer .close{ background: rgba(0, 0, 0, 0) url("http://css.dhresource.com/mobile_v2/storeShop/image/coupon-closed.png") no-repeat scroll 0 0 / 20px 20px; float: right;height: 20px;  width: 20px;position: absolute;right: 15px;top: 12px}
+.couponLayer .backLeft{ background: rgba(0, 0, 0, 0) url("http://css.dhresource.com/mobile_v2/storeShop/image/menu-arrow.png") no-repeat scroll 0 0 / 12px 19px;float: left;height: 38px; width: 23px;position: absolute;left: 15px;top: 12px}
+#J_sCouponLayer nav{text-align: center;}
+#J_sCouponLayer nav a{float: none;font-size: 18px;color: #39362b;}
+.J_couponListLayer{margin-top:5px;padding: 10px;}
+.J_couponListLayer .singleCoupon{margin-bottom: 10px;display: block;cursor: pointer;}
+.singleCoupon span{display: inline-block;float:left;height: 88px;color: #b6df9d;}
+.singleCoupon span.sCoupon-detail{position:relative;width: 65%;background: #01a601;padding:15px;height:58px;border: 1px solid #01a601;border-radius: 3px 0 0 3px;margin-right:-3px;}
+.singleCoupon span.sCoupon-detail p.cOff{font-size: 14px;margin-bottom: 5px;height:21px;line-height:21px; }
+.singleCoupon span.sCoupon-detail span.sAppCoupon{position:absolute;right:10px;top:10px;font-size: 10px;color: #fff; }
+.singleCoupon span.sCoupon-detail p b{font-size: 13px;color: #fff;}
+.singleCoupon span.sCoupon-detail p.cOff b{font-size: 21px;}
+.singleCoupon span.sCoupon-btn{width:26%;background:#f8fef5;color:#39362b;text-align: center;line-height: 88px;border: 1px dashed #8ca96e;border-left:none;border-radius: 0 3px 3px 0;}
+.J_couponListLayer .received span.sCoupon-detail, .J_couponListLayer .outOf span.sCoupon-detail{background: #ebeae4;color: #cbc8bb;border: 1px solid #ebeae4}
+.J_couponListLayer .received span.sCoupon-detail p b,.J_couponListLayer .outOf span.sCoupon-detail p b{color: #cbc8bb;}
+.J_couponListLayer .received span.sCoupon-btn, .J_couponListLayer .outOf span.sCoupon-btn{background: #fff;color: #a6a398;font-size: 14px;border: 1px dashed #ebeae4;border-left: none;}
+.J_couponListLayer .received span.sCoupon-btn{background: url("http://css.dhresource.com/mobile_v2/storeShop/image/received.png") center no-repeat;background-size: 75px 75px;}
+.J_couponListLayer .outOf span.sCoupon-btn{line-height: 20px;padding-top: 20px;height: 68px;}
+.allCoupons .note{color: #a6a398;text-align: center;border-top: 1px solid #ebeae4;padding-top: 10px;}
+
+/*导航菜单*/
+.navs{position:relative;}
+.navtab{width:100%;border-top:1px solid #ddd;display: -webkit-box;display: -moz-box;display: -ms-flexbox;display: flex;background:#fff; -webkit-transform: translate3d(0px, 0, 0);
+ -moz-transform: translate3d(0px, 0, 0);
+ -o-transform: translate(0px, 0px);
+ -ms-transform: translate3d(0px, 0, 0);
+ transform: translate3d(0px, 0, 0);}
+.navtab ul{width: 100%;border-bottom: 1px solid #ddd;}
+.navtab li{height:42px;line-height:42px;width:50%;float:left;display:inline-block;font-weight:bold;-webkit-box-flex:1;-moz-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;text-align:center;color:#979fa3;background:#fff;}
+.navtab li:nth-last-child(1){border-left: 1px solid #ddd;margin-left: -1px}
+.navtab li.current{height:40px;line-height:40px;color:#727272;background:#f5f5f5;border-top:2px solid #ddd;}
+.navtab li.curs{background:#f2f2f2;}
+.store-tabBox{width:100%;height:40px;background:#fff;border-bottom:1px solid #ddd;}
+.storeTab{overflow:hidden;border-bottom: 1px solid #ddd;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}
+.storeTab ul{height: 38px;line-height: 38px;;}
+.storeTab ul::-webkit-scrollbar{background-color: transparent;}
+.storeTab li{text-align:center;float:left;display:inline-block;height:40px;line-height:40px;color:#979fa3;vertical-align: middle;}
+.storeTab li.current a{font-weight:bold;color:#fdd000;}
+.swiper-slide{width:auto;font-size: 12px;}
+.swiper-slide a{color: #979fa3;padding: 0 10px;}
+/*商品列表*/
+.store-list.hide{display:none;}
+.store-list li,.all-list li{width:50%;float:left;border-bottom:1px solid #d7d7d7;padding-top: 10px}
+.store-list li img,.all-list li img{max-width:140px;max-height:100%;vertical-align: middle; margin: 0 auto;display: inline-block;}
+.store-list li h3,.all-list li h3{padding:0px 10px;color:#000;font-size:12px;height:38px;overflow:hidden;}
+.store-list li:nth-child(2n+1),.all-list li:nth-child(2n+1){border-right: 1px solid #d7d7d7;margin-left: -1px;}
+.store-list-img{text-align:center;position: relative;height:140px;line-height:140px;overflow: hidden; background: url(http://css.dhresource.com/mobile_v2/storeShop/image/load.gif) no-repeat center;background-size: 35px 35px;}
+.info{padding:0px 10px 10px;height: 72px;}
+.info .nowPrice{color: #cc5252;font-size: 12px;display: inline}
+.info dd{color:#959595;}
+ .hasload{background: none;}
+.loading{ background: url(http://css.dhresource.com/mobile_v2/storeShop/image/load.gif) no-repeat center;background-size: 35px 35px; width: 100%; height: 100px;}
+/*促销标*/
+.off-ico2 {position: absolute;z-index: 5;padding-right: 16px;width: 22px;height: 24px;left: 10px;top:0;line-height: 24px;font-size: 17px;font-weight: bold; color: #fff;  background: url(http://css.dhresource.com/mobile_v2/storeShop/image/promotion.png) -530px -78px no-repeat;  background-size: 599px 200px; }
+.reduction-ico {text-align: center;left: 10px;color: #fff;font-size: 11px; line-height: 18px; z-index: 5; position: absolute;display: block; width: 41px;  height: 33px;  background: url(http://css.dhresource.com/mobile_v2/storeShop/image/promotion.png) -113px 0px no-repeat;  background-size: 304px 95px;  }
+.sale{text-align: center; left: 10px;top:0;color: #fff;font-size: 11px; line-height: 18px; z-index: 5; position: absolute;display: block; width: 45px;  height: 24px;  background: url(http://css.dhresource.com/mobile_v2/storeShop/image/sale.png) 0px 0px no-repeat; background-size: 45px 24px; }
+.icon-vip{z-index:5;position:absolute;left:10px;top:0;display:block;width:46px;height:18px;background: url(http://css.dhresource.com/mobile_v2/storeShop/image/promotion.png) -61px -20px no-repeat;background-size: 210px 54px;}
+
+/*滚屏类目*/
+/*body{position: relative}*/
+.navs{transform-origin: 0px 0px 0px; transform: translate(0px, 0px) translateZ(0px);}
+nav.j-navs{ position: fixed;top:0; width: 100%;z-index: 9010; }
+nav.j-navs .storeTab{background: #fff;transform-origin: 0px 0px 0px;transform: translateX(0px) translateY(0px) translateZ(0px) scale(1, 1); transition: none;}
+/*show more*/
+.allContent{margin-bottom: 10px;}
+.allContent .show-more {background-color: #fff;width: 90%;font-size: 14px; text-align: center; height: 45px;line-height: 45px;  margin:10px 4.5% ;border: 1px solid #c7c7c7; border-radius: 4px;  color: #898888; display: inline-block;  cursor: pointer  }
+.allContent i { display: inline-block;width: 11px; height: 9px; margin-left: 5px;}
+.goTop{width:44px;height:44px;position:fixed;bottom:50px;right:5px;display:none;background:url("http://css.dhresource.com/mobile_v2/storeShop/image/go-top.png") no-repeat; background-size:44px 44px;}
+.hide{display: none;}
+.load{background: url("http://css.dhresource.com/mobile_v2/storeShop/image/load.gif") no-repeat center 0;display: inline-block;  width: 100%; height: 100px;}
+/*iphone 4*/
+@media screen and (max-device-width:320px){
+ .info{height: 98px;}
+ .off-ico2,.reduction-ico,.sale {left: 8px;}
+ .message-entrance a{width:64px;}
+ .singleCoupon span.sCoupon-detail{width: 64%;}
+}
+/*5*/
+@media screen and (min-device-width: 320px) and (max-width:370px) {
+ .downCentent { font-size:16px; color: #fff; }
+ .down-but { right: 10px; }
+ .down-text { width: 120px; font-size: 12px; left: 56px; line-height: 18px; top: 8px; }
+ .pro-piece strong { font-size: 14px; }
+}
+
+@media screen and (min-device-width: 359px) and (max-width:370px) {
+ .down-text { width:160px; font-size: 16px; left: 56px; line-height: 20px; top: 6px; }
+}
+/*iphone 6 plus*/
+@media screen and (min-device-width: 414px){
+ .off-ico2,.reduction-ico,.sale {left: 30px;}
+ .top-download .downClose { background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151028) no-repeat -87px -373px; background-size: 233px auto;}
+ .down-logo {background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png?v=20151202) no-repeat -102px -430px;background-size:233px auto;}
+ .detail-store .levelP{background-position: -36px 0;background-size: 83.3px 100px;}
+ .detail-store .levelT{background-position: -36px -17px;background-size: 83.3px 100px;}
+ .detail-store .hsponsor{background-position: -36px -33px;background-size: 83.3px 100px;}
+ .detail-store .jsponsor{background-position: -36px -61px;background-size: 83.3px 100px;}
+ .detail-store .lsponsor{background-position: -36px -47px;background-size: 83.3px 100px;}
+ .message-entrance a{width: 100px}
+/* .store-promotion {border-bottom: 1px solid #ebeae4}*/
+ .store-promotion  a span{background-size: 64px auto;}
+ .store-promotion  a .storeEnlf{background-position: -33px -52px;}
+ .store-promotion  a.limits .storeEnlf{background-position: -33px -106px;}
+ .store-promotion  a .storeEnRi{background-position: -49px 0;}
+ .store-promotion  a.limits .storeEnRi{background-position: -49px -160px;}
+}
+

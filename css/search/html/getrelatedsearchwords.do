@@ -1,0 +1,1 @@
+{"code":"10001","data":["beyblade metal masters","party dresses","mp4 player","flower girl dresses","wedding shoes","shamballa bracelet","no no hair removal"],"flag":"","msg":"Get hot words success"}

@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "allcategory": 1,
+            "amount": 5,
+            "campaignid": "dc9ff8886e2d54d89e3928f58c8d5be4",
+            "campaignname": "addddd",
+            "canUse": false,
+            "couponBuyerId": "ff808081507df9a3015084b347460002",
+            "couponcode": "FA9EBCB3720AD2CBAC",
+            "endDate": 1445961600000,
+            "orderAmo": 70,
+            "owningUserId": "000000000000000000000000000001",
+            "startDate": 1445270400000,
+            "type": "1",
+            "validDay": 0
+        },
+        {
+            "allcategory": 1,
+            "amount": 6,
+            "campaignid": "dc9ff8886e2d54d89e3928f58c8d5be4",
+            "campaignname": "bbbb",
+            "canUse": false,
+            "couponBuyerId": "ff808081507df9a3015084b347460002",
+            "couponcode": "FA9EBCB3720AD2CBAC",
+            "endDate": 1445961600000,
+            "orderAmo": 70,
+            "owningUserId": "000000000000000000000000000001",
+            "startDate": 1445270400000,
+            "type": "1",
+            "validDay": 0
+        },
+        {
+            "allcategory": 1,
+            "amount": 64,
+            "campaignid": "1fe595a4a254bc24631a332a32217d33",
+            "campaignname": "cc01",
+            "canUse": true,
+            "couponBuyerId": "ff808081507df9a3015084ae20010001",
+            "couponcode": "1679E79A00AC5817A9",
+            "endDate": 1446134400000,
+            "orderAmo": 65,
+            "owningUserId": "000000000000000000000000000001",
+            "startDate": 1445270400000,
+            "type": "1",
+            "validDay": 0
+        }
+    ],
+    "message": "Success",
+    "serverTime": 1445845796541,
+    "state": "0x0000"
+}

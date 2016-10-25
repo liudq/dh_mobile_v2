@@ -1,0 +1,172 @@
+{
+    "data": {
+        "isVisitor":false,
+        "orderSummary": {
+            "couponAmount": 10,
+            "itemsSubtotal": 888,
+            "orderSave": 0,
+            "shipCostSave": 0,
+            "shippingCost": 29.47,
+            "totalPrice": 4206
+        },
+        "shippingInfo": {
+            "shippingInfoId": "4028cca8501295c0015012f72e33002b",
+            "country": "US",
+            "countryname": "United States",
+            "city": "us",
+            "state": "New York",
+            "addressline1": "us",
+            "addressline2": "us",
+            "firstname": "xiaonannan",
+            "lastname": "zhangsan",
+            "postalcode": "11111",
+            "tel": "001-88888",
+            "vatNumber": "666666666"
+        },
+         "orders": [
+            {
+                "orderId": 300053379,
+                "orderItemDTOList": [
+                    {
+                        "cartItemDTO": {
+                            "amount": 8888.52,
+                            "canDelivery": true,
+                            "cartItemId": "ff808081507ec3d201507eff751a0005",
+                            "currency": "USD1",
+                            "imgURL": "http://image.dhgate.com/100x100/f2/albu/g1/M00/00/00/wKjfHVXMjHiICIftAADIHJQhV4sAAAAGQL2LmAAAMg0878.jpg",
+                            "itemUrl":"http://image.dhgate.com/100x100/f2/albu/g1/M00/00/00/wKjfHVXMjHiICIftAADIHJQhV4sAAAAGQL2LmAAAMg0878.jpg",
+                            "inventoryStatus": true,
+                            "itemCode": 154003160,
+                            "leadingTime": 2,
+                            "maxQuantity": 4,
+                            "minQuantity": 1,
+                            "price": 99999.13,
+                            "prodName": "A-Line Wedding Dresses for seller for Wedding & Events 081232",
+                            "quantity": 4,
+                            "sellStatus": true,
+                            "skuInfo": "[Silver] [Other] [Christmas] [Plus Size]",
+                            "skumd5": "47ce7d25266f2bc5b944bb734657f4f6",
+                            "unit": "Piece",
+                            "remark":"我是好人"
+                        },
+                        "shippingMethodList": [
+                            {
+                                "carriersName": "JILLION1",
+                                "freightAmountRealFinal":666.42,
+                                "freightCycle": "6-8",
+                                "selected": false,
+                                "shippingTypeId": "JILLION666"
+                            },
+                            {
+                                "carriersName": "UPS-Expedited",
+                                "freightAmountRealFinal": 30.46,
+                                "freightCycle": "2-5",
+                                "selected": true,
+                                "shippingTypeId": "JILLION2"
+                            }
+                        ]
+                    },{
+                        "cartItemDTO": {
+                            "amount": 4188.52,
+                            "canDelivery": false,
+                            "cartItemId": "ff808081507ec3d201507eff751a0008",
+                            "currency": "USD1",
+                            "imgURL": "http://image.dhgate.com/100x100/f2/albu/g1/M00/00/00/wKjfHVXMjHiICIftAADIHJQhV4sAAAAGQL2LmAAAMg0878.jpg",
+                            "itemUrl":"http://image.dhgate.com/100x100/f2/albu/g1/M00/00/00/wKjfHVXMjHiICIftAADIHJQhV4sAAAAGQL2LmAAAMg0878.jpg",
+                            "inventoryStatus": true,
+                            "itemCode": 154003160,
+                            "leadingTime": 2,
+                            "maxQuantity": 9874,
+                            "minQuantity": 1,
+                            "price": 666.13,
+                            "prodName": "A-Line Wedding Dresses for seller for Wedding & Events 081232",
+                            "quantity": 4,
+                            "sellStatus": false,
+                            "skuInfo": "[Silver] [Other] [Christmas] [Plus Size]",
+                            "skumd5": "47ce7d25266f2bc5b944bb734657f4f6",
+                            "unit": "Piece"
+                        },
+                        "shippingMethodList": [
+                            {
+                                "carriersName": "01",
+                                "freightAmountRealFinal": 6666.42,
+                                "freightCycle": "6-9",
+                                "selected": true,
+                                "shippingTypeId": "01"
+                            },
+                            {
+                                "carriersName": "01",
+                                "freightAmountRealFinal": 30.46,
+                                "freightCycle": "2-5",
+                                "selected": false,
+                                "shippingTypeId": "02"
+                            }
+                        ]
+                    }
+                ],
+                "couponDTO":{
+                    "campaignid":"ff8080813d00666",
+                    "amount":"666",
+                    "sellStatus": true
+                },
+                "sortTime": 1445239723000,
+                "supplier": {
+                    "supplierId": "ff8080813d007ae3013d0093c25f0017",
+                    "supplierName": "testyu007"
+                }
+            },
+            {
+                "orderId": 300053373,
+                "orderItemDTOList": [
+                    {
+                        "cartItemDTO": {
+                            "amount": 4188.52,
+                            "canDelivery": false,
+                            "cartItemId": "ff808081507ec3d201507eff751a0006",
+                            "currency": "USD",
+                            "imgURL": "http://image.dhgate.com/100x100/f2/albu/g1/M00/00/00/wKjfHVXMjHiICIftAADIHJQhV4sAAAAGQL2LmAAAMg0878.jpg",
+                            "itemUrl":"http://image.dhgate.com/100x100/f2/albu/g1/M00/00/00/wKjfHVXMjHiICIftAADIHJQhV4sAAAAGQL2LmAAAMg0878.jpg",
+                            "inventoryStatus": true,
+                            "itemCode": 154003160,
+                            "leadingTime": 5,
+                            "maxQuantity": 9874,
+                            "minQuantity": 1,
+                            "price": 777.13,
+                            "prodName": "A-Line Wedding Dresses for seller for Wedding & Events 081232",
+                            "quantity": 4,
+                            "sellStatus": true,
+                            "skuInfo": "[Silver] [Other] [Christmas] [Plus Size]",
+                            "skumd5": "47ce7d25266f2bc5b944bb734657f4f6",
+                            "unit": "Piece",
+                            "remark":"我是好人"
+                        },
+                        "shippingMethodList": [
+                            {
+                                "carriersName": "aa",
+                                "freightAmountRealFinal": 33.42,
+                                "freightCycle": "6-9",
+                                "selected": false,
+                                "shippingTypeId": "JILLION3"
+                            },
+                            {
+                                "carriersName": "UPS-Expedited",
+                                "freightAmountRealFinal": 30.46,
+                                "freightCycle": "2-5",
+                                "selected": true,
+                                "shippingTypeId": "JILLION4"
+                            }
+                        ]
+                    }
+                ],
+                "sortTime": 1445239723000,
+                "supplier": {
+                    "supplierId": "ff8080813d007ae3013d0093c25f0017",
+                    "supplierName": "testyu008"
+                }
+            }
+        ]
+    },
+    "message": "Success",
+    "serverTime": 1444288307716,
+    "state": "0x0000"
+}

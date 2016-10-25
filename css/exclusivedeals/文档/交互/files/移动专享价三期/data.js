@@ -1,0 +1,71 @@
+﻿$axure.loadCurrentPage({
+  "url":"移动专享价三期.html",
+  "generationDate":new Date(1451376350355.58),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"9a0dc5472c624bdc8afaf204f3b29480",
+    "type":"Axure:Page",
+    "name":"移动专享价三期",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+},
+    "diagram":{
+      "objects":[{
+          "id":"af2c6fb2839b449f8869ace6d33ccd6e",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"paragraph",
+          "visible":true,
+          "style":{
+            "location":{
+              "x":20,
+              "y":14},
+            "size":{
+              "width":241,
+              "height":48}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"f43a9475cbce43ec85c524e0f8e54e75",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "location":{
+                  "x":20,
+                  "y":14},
+                "size":{
+                  "width":241,
+                  "height":48}},
+              "adaptiveStyles":{
+}}],
+          "images":{
+            "normal~":"resources/images/transparent.gif"}}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "af2c6fb2839b449f8869ace6d33ccd6e":{
+      "scriptId":"u0"},
+    "f43a9475cbce43ec85c524e0f8e54e75":{
+      "scriptId":"u1"}}});

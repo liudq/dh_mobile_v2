@@ -1,0 +1,338 @@
+.datail-slider{ position:relative;}
+.datail-slider li{ width:100%; box-sizing:border-box; overflow:hidden;font-size:0;}
+.datail-slider li img{ margin:0 auto;width:auto; max-width:100%; max-height:300px;vertical-align:middle;}
+.slider-collection{ position:absolute;right:0; bottom:10px; height:25px; line-height:25px; padding:0 15px 0 30px;z-index:12; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat;background-size:310px auto; font-size:9px; color:#68655e;}
+.slider-icon,.slider-icon2{ position:absolute; left:8px; top:4px; display:block; width:20px; height:20px; }
+.slider-icon{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6REE2RTEzRTU0QTU2MTFFNjg4MjJGODcxNUVENDMxQUEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6REE2RTEzRTY0QTU2MTFFNjg4MjJGODcxNUVENDMxQUEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEQTZFMTNFMzRBNTYxMUU2ODgyMkY4NzE1RUQ0MzFBQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEQTZFMTNFNDRBNTYxMUU2ODgyMkY4NzE1RUQ0MzFBQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoXvuqsAAARqSURBVHja7FprbFRFFD4LbShtsC0hyiNsayl94BZtl4e01MRINP7ylz9I/EFiDKkmaqIGTUSDRCNCSBQUCYQoanjEH/BLBIUIWPou3Re7fUlb21Ao2G3pthGWer7bme22YWv33rm7oexJvtm5vXfumW/mzJk559YyOjpKM0Fm0QyRBJEEkQSRh4RIUqQbR37c/38DUMjIZqQx+hj1DH8UutMZdsYCxhDjKuMK416kBhtf2Rw9kQiSyXiDsT3C/V8Z+xgnp3jHS4wKxgsR7m9lfM34xyzT2sK4JUmkZ2TS4iVWsmYto8cWLpHPoHMnGN8wiia1t4kOnpAk0A7t8R68T8h2oWeLEtOaJDsZ76JSULiS8hmpqWkTHsAJoauznf688BuJEQdeZJwSHT8lny0r30BLrTlksVgmvCMQGCLfFQd5GSyfC7N7TxWRjySJ1WvLKXf5ivs+hE5hdIGGukryeZ348y+MRZJEXoGN7KvKIirC4BTb19G8RzKotvo8Cb2DjE+MmhbMYRsqT5c+G5HEZClZVUp5+TZ5+YFGIn9qEuGSu7xQ0ydkm+iHISIVGpuiEno8Jy8qr2ArssvqmyiesBVH1R76oDe8H3qJwD2+jsqKKDsBmZOSQqXrn9Pq+E2Zmxr1O8L0oh8ZetfI8yisWTk0e3YS6ZGs7Fz2SFmUnJysqz30Ys11drTJ/hzXMyNPocjIXGBox9VLIrRxzQ/pL9ZrWvA2NFeHSaiUFDZRIY/qJTKCIhgMxpXIvWDoxPKvXiK9GpuRQFyJDI/rv6aXSDOKwQF/XIkM+Ptl1auXyDltWnp74kpEeKxQf/QQwVTWjQwH6NbNG3Eh0dfXK6tVjOtGdvaDKNpavXEh0tYS0nvA6BHlJxStLR4KDN2OKYnBQT+1t4WIHDNKBL3/DBWfzxVTIi3NnvBD45CKwOoLzWV4mqj3WndMSHR3d2hxiZAdqiJE+N8PJ42SqdI6rgdR4rDKUPdTxOGIAJ1NdaaScFyuoZ7uTi3/Ia1BdcyOpAK5nPX0d9dfppDouNpKblfjBH1mEEGG5GNULvxxWouvle7gA/1UefF3efk+1JhFhETsvBcVz/jIKZHmsRgf8tV0F7gRIjIZwQvfTY31l5SQQLJCOJLvZKIjFkSQOHtGc8nsIo0u/qbGaplxkeviTqyIkLDfTXLxOx36yDiaasnjviwvX2bU6B0QI0ns72ksfUouRz17m4aoGmMm3c5Qm1cZPxuZWaPZeKRG3xrz/7XTdgAggJkMS/UcMrrOVHxWgJd5R7N33sxczqlnBmYIkxKCnNe3KhyGqu8ju0nkaJ3cSezOkRY2zFDI24w9qty3yg89u0gk9LA7NzZUTbgJVx22sF9jfKlyH0oitbJPHP0P47QcDN6llU+u0WYI+46QjYyjqo83qolAfhBh8ukWn5uuc8zv7w99s0EO9awZ5zSzviGeYSzDDAkSmCmrWSTMmhEp7WLN4CuV2+wYxpL4X5QEkQSRBJEHSv4TYACUzF+FiDRcNAAAAABJRU5ErkJggg==) no-repeat -2px -4px;background-size:25px 25px;-webkit-transform:rotateX(360deg);-webkit-transform-style:preserve-3d;-webkit-backface-visibility:hidden;-moz-transform:rotateX(360deg);-moz-transform-style:preserve-3d;-moz-backface-visibility:hidden;-o-transition:all .6s ease-in-out;-ms-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;-webkit-transition:all .6s ease-in-out;transition:all .6s ease-in;}
+.slider-icon2{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Q0E2RDMwNkQ0QTU2MTFFNkE0MUJCQzcwMDMwQUVDRjEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Q0E2RDMwNkU0QTU2MTFFNkE0MUJCQzcwMDMwQUVDRjEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDQTZEMzA2QjRBNTYxMUU2QTQxQkJDNzAwMzBBRUNGMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDQTZEMzA2QzRBNTYxMUU2QTQxQkJDNzAwMzBBRUNGMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnWvTHIAAAKhSURBVHja7JpLSBVRGMfnirhTE1/YwtBFhO58hm3bFLYI1JXQIgUhQ1yEUpsEFwZuImzRixZaYASKhYhCC0NapEa2EAMXmYqYJCYivq7/rz7N4jrOOfPNvUc5H/zg3rkzc85vzvvMDYXDYeckRJxzQsKKWBErYkWOV8RHPPoxwe2a0+AiOAdSwQr4Bj7QlcDrwBQCReA8yAZJYAlMgkEwf+iVRRseRSLHZXAHlLmcQ0L3wUOwfsg59JRugAZwxuVeI6AV9Ht6KhFH9n9LJBE8AVUK0pN8/sR/x/NBN8hTuNcrcB38ciuRo9pIMninKOFwtRsGpQeOFYP3ihIUlZyHZN3GTnW4ExRqtj9KuBdkgUz+fErzXoWcl5BaY//7JMp9diYk0A42WchPlHOeulXbyCgoEOgZdwS7+rHfpaPQRnKFJPbSkBqvKE85Km1ESiKIKFARSTdYJENFxORl446KyKzBIrMqIqMGl8onFZE5MG6gxBfwXXVkf22gSKfOFOURWDVIYg081RH5AR4bJNLBedKaxqeBKZASY4lFcBYs607j6Qk0GVAajfsSPtbstKh6E0OJHtAlsflAda8GLMRAYobTFttFIYkKsBHlXuoqb0iIiTi8TL0ZJQmqBbU8w3CkRfbGlrYoiNwGL1QXPTqJPA9Q4oHOw4rTLPYaLz2JRlCJN+guQ3ViG1wDL4Ul6nRn3X7W0iRTzVMHv3HPj4TEzgat1upBi4/e6RZo9rv+kdrduMtC2wrXbHFba5fIgORrhQ4ewLxM/X+CS+CZVOLS70f6wAUw7XIOzaZpT3hIMuEgXvR8BiVgIMJvb50/70O+Sica1BurJa46zdwWtvjzFa5W4hHvBBdh7lZH+PtwkHOakP0LhxWxIlbEisQidgUYAEQAjYgoxJ/VAAAAAElFTkSuQmCC) no-repeat -2px -4px;background-size:25px 25px;-webkit-transform: rotateX(0);-moz-transform:rotateX(0);-o-transition:all .6s ease-in-out;-ms-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;-webkit-transition:all .6s ease-in-out;transition:all .6s ease-in-out;}
+.datail-switch{ position:absolute;text-align:center; top:280px; height:8px; width:100%;  }
+.datail-switch span{ margin-right:8px; display:inline-block; width:8px; height:8px; background-color:#cbc8bb;border-radius:4px;} 
+.datail-switch span.current{ background-color:#ffcb05;}
+.datail-name-box{ padding:10px 10px 5px;text-align: center;}
+.datail-name{margin:0px;font-size:16px; max-height:48px; min-height:24px; overflow:hidden; font-weight:normal; display:-webkit-box; -webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.app-sale{ position:relative; margin-top:8px; display:inline-block; border:solid 1px #fee98a; border-radius:3px; height:28px; line-height:28px; background:#fffcef;}
+.app-sale a{ display:block;padding:0 27px 0 27px;}
+.app-icon,.app-arrow,.coupon-arrow,.public-arrow{position:absolute;display:block; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat; }
+.app-arrow,.coupon-arrow,.public-arrow{ top:8px; width:7px; height:11px;background-position:-60px -30px; background-size:310px auto;}
+.app-icon{ left:10px; top:5px; width:10px; height:16px; background-position:-44px -30px; background-size:310px auto;}
+.app-arrow{right:10px;}
+.coupon-arrow{ right:20px;}
+.public-arrow{ margin-top:-6px;top:50%; right:10px;}
+.datail-price-warp{padding:0 10px;color:#a6a398;text-align: center;}
+.datail-price-box{ padding-bottom:5px;}
+.vip-price{ font-size:14px; color:#f3b202; font-weight:bold;}
+.present-price{ font-size:20px; color:#39362b;}
+.original-price{text-decoration:line-through;}
+.min-order-container{ position:relative;}
+.orders-num b{ color:#39362b;}
+.split-line{ height:15px; background:#f5f4ef; line-height:15px;}
+.datail-coupon{ padding:10px; overflow:hidden;border-top:solid 1px #f5f4ef;}
+.datail-dhcoupon,.datail-storecoupon{ float:left; width:50%;box-sizing:border-box; height:30px;}
+.datail-dhcoupon{ padding-right:10px;}
+.datail-dhcoupon a,.datail-storecoupon a{display:block; height:28px; line-height:28px; border:dashed 1px #8ea96e;border-radius:3px; background-color:#f8fef5; color:#360; text-align:center;}
+.datail-coupon-one{  text-align:center;}
+.datail-coupon-one .datail-dhcoupon, .datail-coupon-one .datail-storecoupon{ padding-right:0; float:none; display:inline-block;}
+.coupon-arrow{ position:absolute;}
+.datail-attribute,.datail-free-shipping,.datail-specification,.datail-description,.datail-ships-to,.datail-reviews{ position:relative;padding:10px 10px; border-bottom:solid 1px #f5f4ef; font-size:14px;}
+.datail-ships-to{ padding:0 15px;}
+.datail-specification,.datail-description,.datail-reviews,.datail-ships-to{ padding:0 10px; height:45px;}
+.datail-attribute a,.datail-free-shipping a,.datail-specification a,.datail-description a,.datail-reviews a,.Ships to a{ display:block; }
+.attribute-name{ display:inline-block; }
+.free-shipping-name,.free-shipping-piece{ display:inline-block; width:70px;  line-height:18px; }
+.free-shipping-text{ color:#f00;}
+.free-shipping-text span{  display:block; font-size:10px; color:#39362b;}
+.datail-ePaket,.datail-star,.datail-ePaket2{ position:absolute; top:12px; right:25px;}
+.datail-ePaket2{ top:10px; font-size:12px; text-align:right;}
+.datail-btn,.datail-btn2,.datail-btn3{ padding:15px 10px; overflow:hidden;}
+.butnow,.addtocart,.contact-seller,.visit-store{ float:left; width:50%; box-sizing:border-box; height:44px; line-height:44px; text-align:center; font-size:14px;}
+.butnow a,.addtocart a,.contact-seller a,.visit-store a,.datail-btn2 a,.datail-btn3 a{ display:block; border-radius:3px;}
+.butnow,.contact-seller{ padding-right:10px;}
+.butnow a,.datail-btn2 a{border:solid 1px #ecbb03; background:-webkit-gradient(linear,0 0,0 bottom,from(#ffd32e),to(#ffcb06));background: -moz-linear-gradient(top, #ffd32e, #ffcb06)}
+.datail-btn2 a,.datail-btn3 a{ height:44px; line-height:44px; text-align:center; font-size:14px;}
+.datail-btn3 a{ border:solid 1px #f00; color:#f00;}
+.addtocart a{ border:solid 1px #ddcc8b; background:-webkit-gradient(linear,0 0,0 bottom,from(#fff4c0),to(#ffeda6));background: -moz-linear-gradient(top, #fff4c0, #ffeda6)}
+.datail-btn2 a.sold{background:#ebeae4;border:none;}
+.butnow-sold a,.addtocart-sold a{ background:#ebeae4; border:solid 1px #ebeae4; color:#cbc8bb;}
+.specification-name,.description-name,.reviews-name,.ships-to-name{ line-height:42px;}
+.star-iconWarp{ margin-right:3px;display:inline-block; width:63px; height:12px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat 0 -61px; background-size:310px auto;}
+.star-iconinne{ display:block;width:63px; height:12px;background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat 0 -48px; background-size:310px auto;}
+.seller-information{ position:relative; padding:10px;}
+.seller-name{ font-size:16px;}
+.seller-feedback{ font-size:14px; color:#464646;}
+.seller-top{ position:absolute; top:0; right:10px;color:#a6a398; line-height:18px;}
+.t-top,.p-top{ position:relative; top:7px;  display:inline-block; margin-left:5px;width:18px; height:22px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat; background-size:310px auto;}
+.t-top{ background-position:0 -76px;}
+.p-top{ background-position:-19px -76px;}
+.seller-store-warp{ padding:0 10px 15px; overflow:hidden;}
+.seller-store-warp2 .contact-seller{ width:100%; padding-right:0;}
+.contact-seller a,.visit-store a{ border:solid 1px #cbc8bb;}
+.contact-icon,.visit-icon{ position:relative; top:8px; margin-right:5px;display:inline-block; width:24px; height:24px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat;background-size:310px auto;}
+.contact-icon{ background-position:-38px -78px;}
+.visit-icon{ background-position:-63px -78px;}
+.seller-discount-warp{ padding:0 10px }
+.seller-discount{ padding-bottom:15px;border-bottom:solid 1px #f5f4ef; }
+.discount-box{height:50px; background:#090 url(http://css.dhresource.com/mobile_v2/detail/image/1.png) no-repeat 0 0; background-size:169px auto;}
+.discount-box a{ display:block;color:#fff;height:50px; line-height:50px; background:url(http://css.dhresource.com/mobile_v2/detail/image/1.png) no-repeat 100% -50px; background-size:169px auto; font-size:14px;  text-align:center;}
+.datail-store-coupon{ padding:0 0 15px 10px;}
+h2{font-size:16px; font-weight:normal;}
+.store-coupon-tit{ position:relative; }
+.store-coupon-tit a{ display:block; height:44px; line-height:44px;}
+.store-coupon-tit .public-arrow{ top:50%; margin-top:-6px;}
+.store-coupon-list{ width:100%; height:52px; overflow:hidden;}
+.store-coupon-list-inne{ width:auto; overflow-x:auto; overflow-y:hidden; white-space:nowrap; -webkit-overflow-scrolling:touch;}
+.store-coupon-list .store-coupon-sell,.store-coupon-list .store-coupon-sold,.store-coupon-list .store-coupon-received{ display:inline-block; margin-right:10px;width:92px;}
+.store-coupon-list .store-coupon-sell dt,.store-coupon-list .store-coupon-sold dt,.store-coupon-list .store-coupon-received dt{height:30px;line-height:30px; text-align:center; font-size:11px;border-radius:3px 3px 0 0;}
+.store-coupon-list .store-coupon-sell dd,.store-coupon-list .store-coupon-sold dd,.store-coupon-list .store-coupon-received dd{ height:19px; line-height:19px; text-align:center;  border-width:0 1px 1px 1px;border-radius:0 0 3px 3px;}
+.store-coupon-list .store-coupon-sell dt{  background:#090; color:#b6df9d; }
+.store-coupon-list .store-coupon-sell dt span{ color:#fff; font-size:17px;}
+.store-coupon-list .store-coupon-sell dd{background-color:#f8fef5; color:#2e7c2e; border:dashed 1px #8ca96e;}
+.store-coupon-list .store-coupon-sold dt,.store-coupon-list .store-coupon-sold dt span,.store-coupon-list .store-coupon-received dt,.store-coupon-list .store-coupon-received dt span{ background:#ebeae4; color:#cbc8bb;}
+.store-coupon-list .store-coupon-sold dd,.store-coupon-list .store-coupon-received dd{ background:#fff; border:dashed 1px #ebeae4;color:#a6a398;}
+.buyer-protection{ padding:10px;}
+.protection-box{ position:relative; padding:10px 0 0 53px; line-height:20px;}
+.protection-box li span{ font-size:10px;}
+.protection-icon{ position:absolute; left:0; top:15px; display:block; width:37px; height:46px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat 0 -106px; background-size:310px auto;}
+.protection-payment{ padding-top:8px;}
+.protection-payment span{ display:inline-block; margin-right:4px; width:34px; height:21px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat; background-size:310px auto;}
+.protection-payment span.datail-vise{ background-position:-38px -107px;}
+.protection-payment span.datail-mc{ background-position:-71px -107px;}
+.protection-payment span.datail-ae{ background-position:-38px -129px;}
+.detail-share{ padding:0 25px; border-top:solid 1px #f5f4ef; height:44px; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap}
+.detail-share a{ -webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;width: 0;-webkit-flex-basis: 0;-ms-flex-preferred-size: 0;flex-basis: 0;max-width: 100%;display: block;padding: 0!important;}
+.detail-share a span{ margin:auto; display:block; width:44px; height:44px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat; background-size:310px auto;}
+.detail-share a.ga-share span{ background-position:8px -154px; }
+.detail-share a.f-share span{ background-position:-36px -152px; }
+.detail-share a.g-share span{ background-position:-80px -152px; }
+.detail-share a.p-share span{ background-position:10px -187px; }
+.detail-share a.mail-share span{ background-position:-40px -187px; }
+.recommended-tit{ line-height:34px;}
+.recommended-products,.datail-pro-list{ overflow:hidden;}
+.datail-pro-list{ background: #fff url(http://css.dhresource.com/mobile_v2/search/image/probgline2x.png) repeat-y 50% 0;background-size: 1px auto;}
+.datail-pro-list ul{ border-bottom:solid 1px #ebeae4;  overflow:hidden;}
+.datail-pro-list li{float:left; width:50%; position:relative;-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;font-size:14px;}
+.datail-pro-list li a{ display:block; padding:10px;  }
+.datail-pro-img { display:block; margin:0 auto 10px;max-width:160px; max-height:160px; min-height:140px; line-height:160px; vertical-align:middle; text-align:center; overflow:hidden; font-size:0;}
+.datail-pro-img img{  max-width:100%; max-height:160px;vertical-align:middle; margin:0 auto; line-height:15px;}
+.datail-pro-off{ color:#f3b202; height:18px;text-align: center; font-weight:bold;}
+.datail-pro-name{text-align: center;}
+.datail-pro-piece{min-height:18px;}
+.datail-pro-piece b{ color:#39362b;}
+.datail-pro-app{ position:absolute; padding-left:12px;}
+.datail-pro-app .app-icon{ top:1px; left:0;}
+.recommended-more{ margin:20px 50px; display:block; line-height:44px; text-align:center; font-size:14px; color:#68655e; border:solid 1px #cbc8bb;background:-webkit-gradient(linear,0 0,0 bottom,from(#f5f4ef),to(#f1efe4));background: -moz-linear-gradient(top, #f5f4ef, #f1efe4); border-radius:3px; clear:both; }
+.selectOption-scroll{overflow-y:scroll;-webkit-overflow-scrolling: touch; position: relative;}
+.product-title-top{ position:relative;border-bottom:solid 1px #ebeae4; height:45px; text-align:center; font-size:18px; line-height:45px;}
+.product-title-top .top-icon-warp{ position:absolute; left:0; top:0; display:block; width:45px; height:45px; }
+.title-top-icon{ position:absolute; left:15px; top:15px; display:block; width:10px; height:15px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat -88px -202px; background-size:310px auto;}
+.product-img,.options-list,.pro-number,.datail-free-address,.design-list,.datail-reviews-star{ padding:15px; overflow:hidden;}
+.product-img dt{ float:left;margin-right:8px; width:80px; height:80px; overflow:hidden; vertical-align:middle; text-align:center; line-height:80px;font-size:0;}
+.product-img dt img{ vertical-align:middle; margin:0 auto;max-width:80px;max-height:80px; font-size:0;}
+.product-img dd{ padding-top:10px; color:#a6a398;}
+.product-img dd .pro-piece{ font-weight:normal;}
+.product-img dd .pro-piece b{ font-size:14px; color:#39362b; }
+.product-img dd .pro-piece2{ text-decoration:line-through;}
+.layer-tit{ padding-left:15px; height:40px; line-height:40px; background:#f5f4ef; font-size:14px;}
+.options-list li,.design-list li{margin:0px 10px 10px 0px;float:left;  border:solid 1px #fff;  }
+.options-list li span,.design-list li span{ display:block; border:solid 1px #bbb;padding:0 10px; min-width:45px;height:45px; line-height:45px;text-align:center; background:#fff;overflow:hidden; vertical-align:middle;}
+.options-list li img,.design-list li img{ max-width:45px; max-height:45px; margin:0 auto; vertical-align:middle;}
+.options-list li.current,.design-list li.current{ border:solid 1px #ffcb05;}
+.options-list li.current span,.design-list li.current span{  border:solid 1px #ffcb05;}
+.options-list li.options-img span,.design-list li.options-img span{ padding:0;}
+.options-list li.options-img span{font-size:0;}
+.pro-table td{ height:30px; line-height:30px;padding:0px;border-bottom:solid 1px #ebeae4; color:#68655e;text-align:center; font-size:12px;}
+.table-tit{height:40px; line-height:40px; background:#f5f4ef;  }
+.table-tit span{ font-size:14px; color:#39362b;}
+.tr1{ width:24%;}
+.tr2{ width:36%; text-align:left;}
+.tr3{ width:40%;}
+.td2{ text-decoration:line-through; text-align:left;}
+.td3{ color:#39362b;}
+.pro-table-two .tr1{width:40%;}
+.pro-table-two .tr2{ width:60%;}
+.pro-table-two .tr3{ display:none;}
+.tr-current{ background:#fef1b2;}
+.pro-number span,.pro-number input{ display:inline-block; vertical-align:middle}
+.pro-number span.pro-reduce,.pro-number input.pro-num,.pro-number span.pro-plus { float:left; height:44px; line-height:44px;}
+.pro-number span.pro-reduce,.pro-number span.pro-plus{ width:48px; text-align:center; background:#fff; font-size:24px; color:#39362b; border:solid 1px #a6a398;}
+.pro-number span.pro-reduce{border-radius:4px 0 0 4px;}
+.pro-number span.pro-plus{border-radius:0 4px 4px 0;}
+.pro-number input.pro-num{ text-indent: 8px; background-color:#fff; width:85px; font-size:14px; border:solid 1px #a6a398; border-width:1px 0;-webkit-appearance:none;border-radius:0;}
+.pro-number span.pro-text{ padding:5px 0 0 10px; margin-right:0; color:#68655e}
+.pro-number span.pro-text p{ color:#39362b;}
+.pro-prompt{ padding-top:10px; clear:both;}
+.pro-number-sold span.pro-reduce,.pro-number-sold span.pro-plus{ border:solid 1px #ebeae4; background:#ebeae4; color:#cbc8bb;}
+.pro-number-sold input.pro-num{ border:solid 1px #ebeae4; color:#cbc8bb;}
+.pro-prompt{ padding-top:10px;}
+.pro-number span.pro-number-sold,.pro-number input.pro-number-sold{ border:solid 1px #a6a398; background:#ebeae4; color:#cbc8bb;}
+.datail-free-address{ font-size:14px; border-bottom:solid 1px #ebeae4;}
+.free-address-address span{ display:block; font-size:12px; color:#a6a398;}
+.ships-to-states{ position:absolute; top:12px; right:25px; color:#a6a398;}
+.ships-to-red{ color:#f00;}
+.datail-free-route{overflow-y:scroll;-webkit-overflow-scrolling:touch;padding:36px 38px;}
+.datail-free-noroute{ padding:15px; font-size:14px;}
+.free-route-text{ display:block;  margin-bottom:20px;  border:solid 1px #ebeae4;border-radius:4px; color:#a6a398;}
+.free-route-text-inne{ display:block;padding:7px 12px; border:solid 1px #fff;border-radius:4px;}
+.free-route-text strong{ display:block; font-size:14px; color:#39362b; font-weight:normal;}
+.free-current-frame,.free-current-frame .free-route-text-inne{ border:solid 1px #ffcb05;}
+.free-current-frame{background:#fffcef;}
+.country-tit{ padding:0 10px; font-size:16px; line-height:45px; background-color:#f5f4ef; }
+.country-list li{ position:relative;padding:0 15px; height:45px; line-height:45px; border-bottom:solid 1px #ebeae4; font-size:14px;}
+.country-list li span{ position:absolute; top:14px; right:15px; width:20px; height:16px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat -101px -200px; background-size:310px auto;}
+.country-content{overflow-y:scroll;-webkit-overflow-scrolling:touch;}
+.datail-reviews-tit{ margin:0 25px 0 45px; padding-top:8px;}
+.datail-reviews-tit ul{padding:1px;  background-color:#ebeae4;border-radius:3px; color:#68655e; font-size:12px; overflow:hidden;display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap}
+.datail-reviews-tit li{  height:28px; line-height:28px; text-align:center; border-radius:3px;-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;width: 0;-webkit-flex-basis: 0;-ms-flex-preferred-size: 0;flex-basis: 0;max-width: 100%;display: block;padding: 0!important;}
+.datail-reviews-tit li.current{background-color:#fff; color:#39362b;}
+.datail-specification-box,.datail-description-box,.datail-reviews-box{overflow-y:scroll;-webkit-overflow-scrolling:touch;}
+.datail-specification-box,.datail-description-box{overflow-x:hidden;padding:10px;}
+.datail-description-box img{width:100%;}
+.datail-description-box table{width:99.5%;}
+.datail-description-box table td.p{word-break:break-all;word-wrap:break-word;}
+.datail-description-box img{display:block;width:100%;}
+.datail-specification-box dl{ margin-bottom:10px; clear:both;}
+.datail-specification-box dt{float:left; width:120px;text-align:right; color:#a6a398; }
+.datail-specification-box dd{ margin-left:130px;}
+.datail-reviews-evaluate{padding:10px 15px;}
+.datail-reviews-evaluate li{ padding:3px 0;}
+.datail-reviews-evaluate li *{ vertical-align:middle;}
+.evaluate-from{ color:#a6a398;}
+.evaluate-picture{ padding:10px 0; overflow:hidden;}
+.evaluate-picture a{ display:block; float:left; margin:0 10px 10px 0; width:70px; height:70px; line-height:70px; vertical-align:middle; text-align:center; overflow:hidden; font-size:0;}
+.evaluate-picture a img{ max-width:70px; max-height:70px; vertical-align:middle; margin:0 auto;}
+.evaluate-star{ display:inline-block; width:63px; height:12px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat 0 -61px; background-size:310px auto;}
+.evaluate-star span{ display:block; height:12px;background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat 0 -48px; background-size:310px auto;}
+.evaluate-by{ margin:0 9px; color:#39362b;}
+.evaluate-zambia{ position:relative; height:20px;}
+.evaluate-zambia a{ color:#07c;}
+.zambia-top,.zambia-down{ float:left; display:inline-block; padding-left:24px; width:36px; height:20px;background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat;background-size:310px auto;}
+.zambia-top{ background-position:0 -239px;}
+.zambia-down{ background-position:-68px -236px;}
+.zambia-text{ position:absolute; right:0; top:4px;}
+.evaluate-praise-box{ position:relative; margin:10px 0; padding:12px; background:#ebeae4;border-radius:5px;}
+.evaluate-praise-box b{ display:block;}
+.evaluate-praise-box span{ position:absolute; left:17px; top:-8px; display:block; width:13px; height:10px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat -91px -263px;background-size:310px auto;}
+.reviews-star-left{float:left;padding:0 0 0 5px; width:190px;}
+.reviews-star-left span{ display:inline-block; vertical-align:middle; line-height:15px;}
+.left-star-value{ width:25px; text-align:right;}
+.left-star-num{ width:40px;}
+.left-star-bar{ width:107px; height:15px; background-color:#ebeae4;}
+.left-star-bar i{ display:block; height:15px; background-color:#ffcb05;}
+.reviews-star-right{ margin-left:200px; width:128px;}
+.layer-star-icon{ margin:0 auto;display:block; height:17px; width:90px; background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat 0 -284px;background-size:310px auto;}
+.layer-star-icon span{ display:block; height:17px;background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat 0 -264px;background-size:310px auto;}
+.reviews-star-num{padding:5px 0 3px; text-align:center;}
+.reviews-star-text{color:#a6a398; line-height:15px;}
+.research-tell-us{ padding-left:35px; font-size:14px; color:#68655e; background:#f5f4ef; line-height:45px; border:solid 1px #ebeae4; border-width:1px 0;}
+.research-tell-us a{ color:#07c;}
+.research-list{ padding:10px 10px 10px 35px; background:#f5f4ef;}
+.research-list li{ position:relative; padding-left:10px; color:#a6a398}
+.research-list li a{color:#a6a398}
+.research-list li.research-list-tit{ padding-left:0; color:#68655e; margin-bottom:3px;}
+.research-list li span{ position:absolute; left:0; top:7px; display:block; width:3px; height:3px; background:#a6a398;border-radius:1px; }
+.research-list .more{ color:#07c; text-align:right;} 
+.layer-bottom-cartWarp{ position:fixed; z-index:1; left:0; bottom:0; padding-left:90px; width:100%; border-top:solid 1px #ebeae4;background:#fff;-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.layer-bottom-cartWarp span{ display:inline-block;}
+.layer-bottom-collection,.layer-bottom-cart{ position:absolute; top:0; width:45px; height:45px; background: url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat;background-size:310px auto;}
+.layer-bottom-collection{ left:0;background-position:-90px -296px;}
+.layer-bottom-collection-hover{background-position:-90px -395px;}
+.layer-bottom-cart{ left:45px; background-position:-88px -340px; line-height:30px; text-align:center; font-weight:bold; font-size:15px; color:#ffcb05;}
+.layer-bottom-collection a,.layer-bottom-cart a{ display:block; height:45px; text-indent:3px;}
+.layer-bottom-cart a{color:#ffcb05;}
+.layer-bottom-box{ height:45px; }
+.layer-bottom-box a{ float:left; width:50%; height:45px; line-height:45px; text-align:center; font-size:14px;}
+.layer-bottom-but{   background:-webkit-gradient(linear,0 0,0 bottom,from(#ffd32e),to(#ffcb06));background: -moz-linear-gradient(top, #ffd32e, #ffcb06)}
+.layer-bottom-add{ background:-webkit-gradient(linear,0 0,0 bottom,from(#fff4c0),to(#ffeca6));background: -moz-linear-gradient(top, #fff4c0, #ffeca6)}
+.layer-bottom-box a.layer-bottom-sold{ margin-top:5px; width:98%; height:35px; line-height:35px;border:solid 1px #f00; color:#f00; border-radius:3px; background:#fff;-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.layer-bottom-notbuy{ background:#ebeae4; color:#cbc8bb; border:solid 1px #fff;-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.buyCartSold{background:#ebeae4;color:#cbc8bb;}
+
+.datail-coupon-box{padding:15px 15px 0px 15px;}
+.datail-coupon-boxScroll,.j-datail-dhCoupon-boxScroll{overflow-y:scroll;-webkit-overflow-scrolling: touch;}
+.datail-coupon-box .store-coupon-sell,.datail-coupon-box .store-coupon-sold,.datail-coupon-box .store-coupon-received,.dh-coupon{position:relative; margin-bottom:10px; height:88px; border-radius:5px;}
+.datail-coupon-box .store-coupon-sell,.dh-coupon{background:#f8fef5; border:dashed 1px #8ca96e;}
+.datail-coupon-box .store-coupon-sold,.datail-coupon-box .store-coupon-received{background:#fff; border:dashed 1px #ebeae4;}
+.datail-coupon-box .store-coupon-sell dt,.datail-coupon-box .store-coupon-sold dt,.datail-coupon-box .store-coupon-received dt{ position:absolute; right:0; top:0; width:94px;  text-align:center; font-size:14px; }
+.datail-coupon-box .store-coupon-sell dt{height:88px;line-height:88px;}
+.datail-coupon-box .store-coupon-sold dt{ padding-top:25px;height:63px; color:#a6a398; line-height:18px;}
+.datail-coupon-box .store-coupon-received dt{ height:88px;  background:url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat 10px -303px; background-size:310px auto;}
+.datail-coupon-box .store-coupon-sell dd,.datail-coupon-box .store-coupon-sold dd,.datail-coupon-box .store-coupon-received dd{ margin-right:94px; padding:5px 0 0 15px; height:83px; border-radius:5px 0 0 5px; }
+.datail-coupon-box .store-coupon-sell dd{ background:#01a501;color:#9ed688;}
+.datail-coupon-box .store-coupon-sold dd,.datail-coupon-box .store-coupon-received dd{  background:#ebeae4;color:#cbc8bb;}
+.datail-coupon-box .store-coupon-sell dd .coupon-1,.datail-coupon-box .store-coupon-sold dd .coupon-1,.datail-coupon-box .store-coupon-received dd .coupon-1{ margin-bottom:5px;}
+.datail-coupon-box .store-coupon-sell dd .coupon-1 span{ color:#fff; font-size:21px;}
+.datail-coupon-box .store-coupon-sold dd .coupon-1 span,.datail-coupon-box .store-coupon-received dd .coupon-1 span{ font-size:21px;}
+.datail-coupon-box .store-coupon-sell dd .coupon-2 span{  color:#fff;}
+.datail-coupon-box .store-coupon-sold dd .coupon-1 span,.datail-coupon-box .store-coupon-sold dd .coupon-2 span,.datail-coupon-box .store-coupon-received dd .coupon-1 span,.datail-coupon-box .store-coupon-received dd .coupon-2 span{ color:#cbc8bb;}
+.store-coupon-note{ padding-top:10px; border-top:solid 1px #ebeae4; text-align:center; color:#a6a398;  }
+.dh-coupon{ padding:0 15px;}
+.dh-coupon dd{ line-height:88px; color:#68655e; font-size:25px;}
+.dh-coupon dd span{ color:#f3b202;}
+.dh-coupon dt{ position:absolute; right:15px; top:22px;font-size:14px; color:#a6a398; width:100px; text-align:right;}
+.product-picture-top{position:absolute;z-index: 2; padding:10px; height:50px;}
+.product-picture-top a{  display:inline-block; width:100px; height:45px; line-height:45px; border:solid 1px #afaca2; border-radius:4px; background:#fff;opacity:0.9; }
+.product-picture-top p{ position:absolute; left:10px; top:10px; padding-left:37px;display:block; line-height:45px; font-size:18px; color:#39362b;}
+.product-picture-top .title-top-icon{ position:absolute; left:30px; top:25px;}
+.reviews-bigpic{ position:relative; height:375px; overflow:hidden; vertical-align:middle; line-height:375px; text-align:center;  }
+.reviews-bigpic img{ margin:0 auto; vertical-align:middle; max-width:375px; max-height:375px;}
+.reviews-switch{ position:absolute; left:45%; bottom:10px; text-align:center;  height:8px; }
+.reviews-switch span{ display:inline-block; float:left;  margin-right:8px; width:8px; height:8px; background:#cbc8bb;border-radius:4px; }
+.reviews-switch span.current{ background:#ffcb05;}
+.numUpper{display:none;}
+.noLineThrough{text-decoration:none;}
+.options-list li.disabled{border:solid 1px #fff;opacity:0.3;}
+
+.open-layer1,.close-layer1{position:fixed;z-index:2;top:0;left:0;width:100%;height:100%;transition-duration:500ms;ms-moz-transition-duration:500ms;-webkit-transition-duration:500ms;background:#fff;}
+.open-layer1{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0)}
+.close-layer1{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);-moz-transform:translate3d(0,100%,0);}
+.open-layer2,.close-layer2{position:fixed;z-index:3;top:0;left:0;width:100%;height:100%;transition-duration:500ms;ms-moz-transition-duration:500ms;-webkit-transition-duration:500ms;background:#fff;}
+.open-layer2{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0)}
+.close-layer2{-webkit-transform:-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);-moz-transform:translate3d(-100%,0,0);}
+.the-top{ position:fixed; z-index:1; right:5px; bottom:60px; width:35px; height:35px; background:#b8b5ad;border-radius:4px; opacity:0.8;}
+.the-top span{ margin:13px auto 0; display:block; width:14px; height:9px; background: url(http://css.dhresource.com/mobile_v2/detail/image/datail.png) no-repeat -74px -32px;background-size:310px auto; }
+.datail-specification-h2{ font-size:12px;}
+@media screen and (min-device-width:414px){
+.slider-collection{ background-position:-93px 0;background-size:207px auto; }
+.slider-icon{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NTcxOEM5REE0QTU2MTFFNjg1MTk4NjYzMTQ3QUI5NjEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NTcxOEM5REI0QTU2MTFFNjg1MTk4NjYzMTQ3QUI5NjEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo1NzE4QzlEODRBNTYxMUU2ODUxOTg2NjMxNDdBQjk2MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1NzE4QzlEOTRBNTYxMUU2ODUxOTg2NjMxNDdBQjk2MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuiZ1oQAAAdJSURBVHja7FxrTBRX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) no-repeat -2px -4px;background-size:25px 25px;-webkit-transform:rotateX(360deg);-webkit-transform-style:preserve-3d;-webkit-backface-visibility:hidden;-moz-transform:rotateX(360deg);-moz-transform-style:preserve-3d;-moz-backface-visibility:hidden;-o-transition:all .6s ease-in-out;-ms-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;-webkit-transition:all .6s ease-in-out;transition:all .6s ease-in;}
+.slider-icon2{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6M0I5ODEzRkE0QTU2MTFFNjgwRjVDMzg1RDUyRjBBN0EiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6M0I5ODEzRkI0QTU2MTFFNjgwRjVDMzg1RDUyRjBBN0EiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4MTNGODRBNTYxMUU2ODBGNUMzODVENTJGMEE3QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4MTNGOTRBNTYxMUU2ODBGNUMzODVENTJGMEE3QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoQjpdcAAAQYSURBVHja7Jt9aE9RGMfPGGrU8hKRKH+IPybyupCSeUuMMORthJA/DCEvjbxEyUsakpUQK1GWGP7xNqm9hDIhL6W8TtMYftnm+3TPssTuufeec+69Z+epT6397u/e2+fe3znPOec5SfX19cyGWLSwCqwsK8vKsrKsLCvLKrCyrCwrK0aR7HpESWvRc7UCI8F40B90B21ALXgPKsBdcAV8CHjfSSAdZPBrdQUd+cP/CF6C+6CIX9c9BiXcL+o6NnSX1QusBXNAqsBtkbxCsBfc8yipHVgGloLegt8pBfvBWVAXliz6IBes4X/7iQKwElQKHJsJ8vhb5CfKQTZ44FeW3zarG7gDNgYQRZEFysBAl6ZiH7gQQBTFAFAM5uts4Hvwiw6W1G7S+W6C4f/4rCU4BXJ4OxU0UsBJsFWHrFTeaPaU3NG0BZdB37/+fwjMUtCxbQNLVMs6Cvoo6pnpQZzjPSjFbLBCYSZwGKSpkjVO0VNuHP3AOt7rHVB8LWprj3n5eSd7OPlOTblfDpfVWcO1KFebxFMZaW/WMJceS2a0B+s1JubLZf8Mpxs8ihnDH5A0WaMMlkXDtBEyZaUxsyNNlqxOjbpzU6OLLFkpzWD2pYMsWb+agaxvsmRVNQNZVbJk1YB3hst6IbM3fGS4rDKZsm4bLKpStqyrBsu6zpqabvYhqwS8NlRWoeiBorJooj7PQFG0EnRetiyKfPDdMFk0n5VQIesTc2YyTYkEl8VUyKLYbVBGT83KG5WynoEThmTsO7x+yc9S2BYDhkC7mNjCbmBZ1INsirEoGo0c9PNFvyvStCRWHENR1N5me+kBZciijHchE5zaiFBQMUqp3y8Hqc+ixn51jESRpO1BThC0mO04OB2T3m8G+BmmLAqql3ocYVE0VFvAnAI3FrYsmhykdcUvEZVFifQlGSeSVVNawYXVRkzURbBZ1slkFuDeAKsiJIpqSufyn2HkZFEcAXsiIOoVf9NrZJ5URWk3lU6eCVEUjTAyvA6Sw5JFr/0i5mEGUmJQJ0OFHs9VnFzVpgEaTswE1zSK+sqcWquHqi6gcofFDzCVOQsCqoOGXROZU0HN4iirIQfLVCyMRE1gGpbrdOzdIWFTmFONrGIYM5ZpWtfUtdGJFjqmMWdLiMxebzTTOFWkc1cYNfrzeC4WNGgNk6oRy3V2tbq30NFwiGrbNwTIrElQOhPd7RVjWQ1BWT5tCvA6ZVLE36i3Ydx0mJszC3jj/Fnw+HyeR1WHdcNh72S9xZwNTk+bOKaOzxwsZiGvWUZh2+8TMOQ/wyNKDSYzfbs7Ii+rYUxHuVgu+1P+Q7OvQxXlZ74imUUnqHekrW20sJDFe83qCN2fwLZfG5H7GVpZVpaVZcPKsrKsLCvLyrKybIjEbwEGAL36wvHvPeLnAAAAAElFTkSuQmCC) no-repeat -2px -4px;background-size:25px 25px;-webkit-transform: rotateX(0);-moz-transform:rotateX(0);-o-transition:all .6s ease-in-out;-ms-transition:all .6s ease-in-out;-moz-transition:all .6s ease-in-out;-webkit-transition:all .6s ease-in-out;transition:all .6s ease-in-out;}
+.app-icon{background-position:-134px -28px; background-size:207px auto;}
+.app-arrow,.coupon-arrow,.public-arrow{background-position:-146px -29px; background-size:207px auto;}
+.star-iconWarp{ background-position:-93px -59px; background-size:207px auto;}
+.star-iconinne{ background-position:-93px -47px; background-size:207px auto;}
+.t-top{ background-position:-93px -75px; background-size:207px auto;}
+.p-top{ background-position:-112px -75px; background-size:207px auto;}
+.contact-icon{ background-position:-131px -75px; background-size:207px auto;}
+.visit-store{ background-position:-157px -75px; background-size:207px auto;}
+.protection-icon{ background-position:-93px -104px; background-size:207px auto;}
+.protection-payment span.datail-vise{background-position:-131px -104px; background-size:207px auto;}
+.protection-payment span.datail-mc{background-position:-165px -104px; background-size:207px auto;}
+.protection-payment span.datail-ae{background-position:-131px -127px; background-size:207px auto;}
+.detail-share a.ga-share span{ background-position:-88px -159px; background-size:207px auto;}
+.detail-share a.f-share span{  background-position:-128px -161px; background-size:207px auto;}
+.detail-share a.g-share span{ background-position:-173px -158px; background-size:207px auto;}
+.detail-share a.p-share span{ background-position:-86px -208px; background-size:207px auto;}
+.detail-share a.mail-share span{ background-position:-128px -206px; background-size:207px auto;}
+.layer-bottom-collection{ left:0;background-position:-90px -296px;}
+.layer-bottom-collection-hover{background-position:-90px -395px;}
+.layer-bottom-cart{ left:45px; background-position:-88px -340px; line-height:30px; text-align:center; font-weight:bold; font-size:15px; color:#ffcb05;}
+.datail-pro-list{ background: #fff url(http://css.dhresource.com/mobile_v2/search/image/probgline3x.png) repeat-y 50% 0;background-size: 1px auto;}
+}
+@media screen and (min-device-width:320px) and (max-width:370px){
+.datail-reviews-star{ padding:15px 10px;}
+.reviews-star-left{ width:170px;}
+.left-star-bar{ width:97px;}
+.reviews-star-right{ margin-left:175px;}
+.research-tell-us{ padding:10px 10px 10px 35px; line-height:18px;}
+}
+
+
+.swiper-pagination-bullet,.swiper-pagination-white .swiper-pagination-bullet{background: #cbc8bb;}
+.swiper-pagination-white .swiper-pagination-bullet-active{background: #ffcb05;}
+.imgViewMainCont .datail-slider ul {white-space: nowrap;display: table;margin: 0;padding: 0;height: 100%;width: 100%;}
+.imgViewMainCont .datail-slider li {display: inline-block;height: 100%;width: 100%;white-space: normal;vertical-align: top;}
+.pinch-zoom{width: 100%;height: 100%;}
+.zoomImgOtrDv{width: 100%;height: 100%;position: relative;display: table;vertical-align: middle;overflow: auto;overflow-x: hidden}
+.zoomImgDv {display: table-cell;vertical-align: middle;text-align: center;overflow: hidden;max-width: 300px;max-height: 300px}
+.changeNum{position: absolute;z-index: 1;color: #C30;top:-20px;right: 10px;}
+.imgViewMainCont{position:absolute;top:0;left:0;width:100%;height:100%;background:#fff;z-index: 888;}
+.promotionTime{padding-left: 5px;}
+.promotionTime var{font-style: normal;padding-right: 3px;}

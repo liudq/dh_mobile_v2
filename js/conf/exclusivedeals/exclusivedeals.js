@@ -1,0 +1,11 @@
+//移动专享价专区依赖的公用ui
+$IMPORT('src/common/ui/iscroll.js');
+//移动专享价专区模板
+$IMPORT('src/exclusivedeals/tpl/exclusiveTpl.js');
+$IMPORT('src/exclusivedeals/tpl/displayClassifyTpl.js');
+//移动专享价专区功能模块
+$IMPORT('src/exclusivedeals/exclusiveRecommend.js');
+$IMPORT('src/exclusivedeals/getCategoryProducts.js');
+$IMPORT('src/exclusivedeals/displayClassify.js');
+$IMPORT('src/exclusivedeals/index.js');
+$IMPORT('src/exclusivedeals/main.js');

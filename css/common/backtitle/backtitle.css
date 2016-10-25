@@ -1,0 +1,14 @@
+/*header black*/
+.head-backstage{ background-color:#68655e; border-bottom:none;}
+.head-backstage .head-category a{ background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png) no-repeat -40px -43px;background-size:350px auto;}
+.head-backstage .logo{ background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png) no-repeat 0 -710px;background-size:350px auto;}
+.head-backstage .head-cart{ background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png) no-repeat -55px -101px;background-size:350px auto;}
+.head-backstage .head-search2{ background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png) no-repeat -106px -149px;background-size:350px auto;}
+.head-backstage .cart-nub{ right:16px}
+/*iphone 6 plus*/
+@media screen and (min-device-width: 414px){
+    .head-backstage .head-category a{ background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png) no-repeat -136px -34px;background-size:233px auto;}
+    .head-backstage .logo{ background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png) no-repeat -102px -707px;background-size:233px auto;}
+    .head-backstage .head-cart{ background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png) no-repeat -151px -80px;background-size:233px auto;}
+    .head-backstage .head-search2{ background:url(http://css.dhresource.com/mobile_v2/home/image/head-foot.png) no-repeat -200px -128px;background-size:233px auto;}
+}

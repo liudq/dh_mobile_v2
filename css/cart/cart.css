@@ -1,0 +1,95 @@
+/* home-stylesheet */
+.header-back{position:relative;height:43px;border-bottom:1px solid #ddd;background:-webkit-gradient(linear,center  top,center bottom,color-stop(0,#fff),color-stop(0.97,#f6f6f6),color-stop(1,#f2f2f2));background:-moz-linear-gradient(top, #fff,#f2f2f2);background:-o-linear-gradient(top, #fff,#f2f2f2);border-bottom: 1px solid #ddd;}
+.header-back{position:relative; width:100%; height:43px; line-height:43px; font-weight:700; font-size:18px; text-align:center; border-bottom:1px solid #ddd; background:-webkit-gradient(linear,center top,center bottom,color-stop(0,#fff),color-stop(0.97,#f6f6f6),color-stop(1,#f2f2f2)); background:-moz-linear-gradient(top,#fff,#f2f2f2); background:-o-linear-gradient(top,#fff,#f2f2f2);}
+.det-back, .det-back span{background:url(//css.dhresource.com/mobile_v2/payment/image/back1.png) no-repeat;}
+.det-back{position:absolute; top:7px; left:15px; padding-left:21px; font-size:12px; color:#333;}
+.det-back span{float:left; padding-right:15px; height:31px; line-height:31px; background-position:100% 0;}
+
+.header-back em{font-weight: bold;}
+.det-hdtitle{display:block;color:#333;font-size:18px;line-height:43px;font-weight:bold;text-align:center;margin:0 60px;}
+.wrap-order{padding-bottom:20px;}
+.order-list .order-tit{padding-left:15px;height: 40px;line-height: 40px;background-color: #fff6ce;color:#333;font-size:16px;}
+.order-details{padding:7px 10px 10px;border-bottom: 1px solid #999;}
+/*购物车营销*/
+.cheapen{background: url("//css.dhresource.com/mobile_v2/cart/image/icon_ring@2x.png") 4px 6px no-repeat;background-size: 16px 20px;padding-left:30px;color: #39362b }
+
+.nobor{border-bottom:0px;}
+.od-imgcon{float: left;width:124px;padding-top:10px;}
+.od-con{margin-left: 124px;}
+.od-checkimg{display: inline-block;vertical-align: middle;width:22px;height: 22px;background:url(//css.dhresource.com/mobile/cart/image/unchecked.png) no-repeat 0 0;background-size:22px 22px;}
+.checked{background:url(//css.dhresource.com/mobile/cart/image/checked.png) no-repeat 0 0;background-size:22px 22px;}
+.od-img{display: inline-block;width:80px;height:80px;vertical-align: middle;margin: 0 5px 0 5px;}
+.od-img img{display:block;margin:0 auto;max-width:80px;max-height:80px;}
+.od-con p{line-height: 22px;word-wrap: break-word;}
+.od-productit a{display:block;height:22px;width:100%;color:#1d459a;font-size:12px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis; }
+.od-productAttr{color:#494949;font-size:12px;}
+.free-shipping{color: #008000;padding-bottom: 10px;}
+.unit-price{color: #333;font-size:12px;width:171px;overflow: hidden;}
+.unit-price strong{color: #900;}
+.ui-number{position:relative;display:inline-block;margin-top:18px;vertical-align:middle;width:103px;height:38px;line-height:38px;border-radius:3px;border:1px solid #999;-webkit-box-shadow:inset 0 3px 4px rgba(80, 80, 80, 0.2); -moz-box-shadow:inset 0 3px 4px rgba(80, 80, 80, 0.2); box-shadow:inset 0 3px 4px rgba(80, 80, 80, 0.2);}
+.ui-number a{display:inline-block;color:#0b326b;position:absolute;top:10px;right:-46px;}
+.d-num{display:inline-block;border-radius:0px;vertical-align:top;width:40px;height:38px;line-height:38px;font-size:18px;text-align:center;border:0 none;border-left:1px solid #999;border-right:1px solid #999;}
+.ui-number input[type="button"]{display:inline-block;color:#999;font-size:25px;background:none;padding:0px;border:0 none;width:30px;height:38px;line-height:38px;}
+.check-out{position: fixed;bottom:0px;width:100%;padding:6px 0px;z-index:1;background-color: #eee;}
+.checkout-main{padding:0 10px 0 22px;}
+.checkout-price{float: left;width: 145px;color: #333;font-size:12px;padding: 4px 0 0 0px;}
+.checkout-price strong{display:inline-block;font-weight:bold;color: #900;font-size:15px;padding-top: 3px;}
+.checkout-btn{margin-left: 145px;padding-right: 0px;}
+.checkout-btn input{width: 100%;height: 44px;border:0 none;-webkit-appearance:none;background: #fca01b;border-radius: 2px;color: #fff;font-size: 17px;}
+.error{color:#f00;background:url(//css.dhresource.com/mobile/cart/image/error.gif) no-repeat 0 8px;padding: 8px 0 0 20px;}
+.shadow{width:100%;height:100%;position:fixed;top:0;left:0;z-index:999;zoom:1;display:none;background:#999 url(//css.dhresource.com/mobile/cart/image/loading3.gif) no-repeat center center;background-size:48px 48px;opacity: 0.5;}
+.noClick input{background-color: #ccc;}
+.promotion-leftTime{font-size: 13px;}
+.promotion-leftTime .leftTime{font-weight: bold;font-size: 13px;padding: 0 5px 0 0;}
+/* errorinfro */
+.errorinfro{padding: 20px 0 0 0;}
+.serror{ border:1px solid #ffdb83; padding: 10px 10px;margin:0 10px;background-color:#fff9e1; text-align:center; font-size:14px; font-weight:bold; line-height:22px; } 
+.cart-goon{text-align: center;padding: 10px 0 0 0;}
+.cart-goon a{color: #039;text-align: center;}
+
+.shadow{display:none;width:100%;height:100%;position:fixed;top:0;left:0;z-index:999;zoom:1;background:#999;background-size:48px 48px;opacity: 0.5;}
+.language{display:none;position:absolute;width:280px;top:50px;left:50%;margin-left:-140px;background:#fff;z-index:1000}
+.language li{height:50px;line-height:50px;padding:0 15px;font-size:15px;color:#464646;border-bottom:1px solid #d7d7d7}
+.language li.tit{text-align:center}
+.language li.active{background:url('data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/4QOBaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjMtYzAxMSA2Ni4xNDU2NjEsIDIwMTIvMDIvMDYtMTQ6NTY6MjcgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMUIwOEJDMzRDRDA4MjI0MjgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjZFQTFGMTdBNzYxMTFFNDlGQjRENzkwNjY1MkI3RjIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjZFQTFGMTZBNzYxMTFFNDlGQjRENzkwNjY1MkI3RjIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2NUFCRTE3QzA2QTZFNDExQTZDQUFDQTdFNjdGNDFGQyIgc3RSZWY6ZG9jdW1lbnRJRD0iYWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOmY0ZGY2ZTkwLWRkMzMtMTE3Ny05ZGRhLWIxZmMyMjJjYWZhNCIvPiA8L3JkZjpEZXNjcmlwdGlv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') no-repeat 96% 50%;background-size:23px 16px}
+.language a{display:block;color:#464646;}
+.language .j-languageCancel{height:40px;line-height:40px;margin:10px 15px;text-align:center;font-size:15px;color:#000;border:1px solid #c6c6c6;border-radius:3px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#f0f0f0));background:-moz-linear-gradient(top, #fff,#f0f0f0);background:-o-linear-gradient(top, #fff,#f0f0f0)}
+
+.saveForLater{}
+.saveForLater h3{text-align:center;height:35px;line-height:35px;color:#666;background:#e6e6e6;}
+.saveForLaterInfo{margin-top:10px;}
+.saveForLaterInfo a{color:#0b326b;}
+.moveToCart,.noMoveToCart{width:100px;margin:0px 10px;height:20px;line-height:20px;text-align:center;display:inline-block;color:#fca01b;background:#fff;border-radius:2px;border:2px solid #fca01b;}
+.noMoveToCart{color:#fff;background:#ccc;border:1px solid #ccc;}
+.ui-number{}
+.ui-number .j-saveForLater{position:absolute;top:-15px;right:-80px;}
+.show-moreBox{text-align:center;margin:10px 0px 80px 0px;}
+.show-more{
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 4px;
+    color: #898888;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+/* footer-stylesheet */
+.footer{padding:20px 0;text-align:center;background-color:#f6f6f6;border-top:1px solid #e6e6e6}
+.footer p{line-height:20px;font-size:9px;color:#888;}
+.ft-nav{font-size:10px;padding-top:12px;color:#aaa;font-weight:bold;}
+.ft-nav a{color:#666;font-weight:normal;padding:0 1px;}
+.footer .ft-join-login{font-size:14px;color:#333;}
+.footer .ft-join-login a{color:#039;font-weight:bold;}
+@media (min-width:414px ) {
+    .cheapen{background: url("//css.dhresource.com/mobile_v2/cart/image/icon_ring@3x.png") 4px 6px no-repeat;background-size: 16px 20px;}
+
+}
+@media (min-width:430px ) {
+    .cheapen{background: url("//css.dhresource.com/mobile_v2/cart/image/icon_ring@3x.png") 4px 0 no-repeat;background-size: 16px 20px;}
+
+}
